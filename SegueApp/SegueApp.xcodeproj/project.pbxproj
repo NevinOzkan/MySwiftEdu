@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A681F09C29C62290006BE556 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A681F09B29C62290006BE556 /* SecondViewController.swift */; };
 		A6E9F69329C6209D003B5C16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E9F69229C6209D003B5C16 /* AppDelegate.swift */; };
 		A6E9F69529C6209D003B5C16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E9F69429C6209D003B5C16 /* SceneDelegate.swift */; };
 		A6E9F69729C6209D003B5C16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E9F69629C6209D003B5C16 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A681F09B29C62290006BE556 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		A6E9F68F29C6209D003B5C16 /* SegueApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SegueApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E9F69229C6209D003B5C16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6E9F69429C6209D003B5C16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				A6E9F69229C6209D003B5C16 /* AppDelegate.swift */,
 				A6E9F69429C6209D003B5C16 /* SceneDelegate.swift */,
 				A6E9F69629C6209D003B5C16 /* ViewController.swift */,
+				A681F09B29C62290006BE556 /* SecondViewController.swift */,
 				A6E9F69829C6209D003B5C16 /* Main.storyboard */,
 				A6E9F69B29C6209D003B5C16 /* Assets.xcassets */,
 				A6E9F69D29C6209D003B5C16 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A681F09C29C62290006BE556 /* SecondViewController.swift in Sources */,
 				A6E9F69729C6209D003B5C16 /* ViewController.swift in Sources */,
 				A6E9F69329C6209D003B5C16 /* AppDelegate.swift in Sources */,
 				A6E9F69529C6209D003B5C16 /* SceneDelegate.swift in Sources */,
