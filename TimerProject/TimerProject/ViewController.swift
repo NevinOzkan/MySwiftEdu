@@ -45,6 +45,11 @@ class ViewController: UIViewController {
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+}
+
+>>>>>>> 7c42e4fe206cd62aa2487f8dd452c0eed48ee894
 =======
 }
 
