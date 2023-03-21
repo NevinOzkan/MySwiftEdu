@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  ArtBookProject
+//  ArtBook
 //
 //  Created by Nevin Özkan on 21.03.2023.
 //
