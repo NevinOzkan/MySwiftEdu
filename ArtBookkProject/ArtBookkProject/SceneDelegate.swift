@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  ArtBook
+//  ArtBookkProject
 //
-//  Created by Nevin Özkan on 21.03.2023.
+//  Created by Nevin Özkan on 22.03.2023.
 //
 
 import UIKit
