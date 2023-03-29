@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  InstaCloneFirebase
+//  InstaCloneeFirebase
 //
-//  Created by Nevin Özkan on 25.03.2023.
+//  Created by Nevin Özkan on 27.03.2023.
 //
 
 import UIKit
