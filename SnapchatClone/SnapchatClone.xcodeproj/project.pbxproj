@@ -7,26 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A6216F1529DB467B00464E8F /* FavoriteBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6216F1429DB467B00464E8F /* FavoriteBookApp.swift */; };
-		A6216F1729DB467B00464E8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6216F1629DB467B00464E8F /* ContentView.swift */; };
-		A6216F1929DB467C00464E8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6216F1829DB467C00464E8F /* Assets.xcassets */; };
-		A6216F1C29DB467C00464E8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6216F1B29DB467C00464E8F /* Preview Assets.xcassets */; };
-		A6216F2329DB46C500464E8F /* FavoriteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6216F2229DB46C500464E8F /* FavoriteModel.swift */; };
-		A6216F2529DB4A5600464E8F /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6216F2429DB4A5600464E8F /* DetailsView.swift */; };
+		A62291A729DB7A9A00A6850F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62291A629DB7A9A00A6850F /* AppDelegate.swift */; };
+		A62291A929DB7A9A00A6850F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62291A829DB7A9A00A6850F /* SceneDelegate.swift */; };
+		A62291AB29DB7A9A00A6850F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62291AA29DB7A9A00A6850F /* ViewController.swift */; };
+		A62291AE29DB7A9A00A6850F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A62291AC29DB7A9A00A6850F /* Main.storyboard */; };
+		A62291B029DB7A9B00A6850F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A62291AF29DB7A9B00A6850F /* Assets.xcassets */; };
+		A62291B329DB7A9B00A6850F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A62291B129DB7A9B00A6850F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A6216F1129DB467B00464E8F /* FavoriteBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavoriteBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6216F1429DB467B00464E8F /* FavoriteBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteBookApp.swift; sourceTree = "<group>"; };
-		A6216F1629DB467B00464E8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A6216F1829DB467C00464E8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A6216F1B29DB467C00464E8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A6216F2229DB46C500464E8F /* FavoriteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteModel.swift; sourceTree = "<group>"; };
-		A6216F2429DB4A5600464E8F /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		A62291A329DB7A9A00A6850F /* SnapchatClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapchatClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A62291A629DB7A9A00A6850F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A62291A829DB7A9A00A6850F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A62291AA29DB7A9A00A6850F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A62291AD29DB7A9A00A6850F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A62291AF29DB7A9B00A6850F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A62291B229DB7A9B00A6850F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A62291B429DB7A9B00A6850F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A6216F0E29DB467B00464E8F /* Frameworks */ = {
+		A62291A029DB7A9A00A6850F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,79 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A6216F0829DB467B00464E8F = {
+		A622919A29DB7A9A00A6850F = {
 			isa = PBXGroup;
 			children = (
-				A6216F1329DB467B00464E8F /* FavoriteBook */,
-				A6216F1229DB467B00464E8F /* Products */,
+				A62291A529DB7A9A00A6850F /* SnapchatClone */,
+				A62291A429DB7A9A00A6850F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A6216F1229DB467B00464E8F /* Products */ = {
+		A62291A429DB7A9A00A6850F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A6216F1129DB467B00464E8F /* FavoriteBook.app */,
+				A62291A329DB7A9A00A6850F /* SnapchatClone.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A6216F1329DB467B00464E8F /* FavoriteBook */ = {
+		A62291A529DB7A9A00A6850F /* SnapchatClone */ = {
 			isa = PBXGroup;
 			children = (
-				A6216F1429DB467B00464E8F /* FavoriteBookApp.swift */,
-				A6216F1629DB467B00464E8F /* ContentView.swift */,
-				A6216F1829DB467C00464E8F /* Assets.xcassets */,
-				A6216F1A29DB467C00464E8F /* Preview Content */,
-				A6216F2229DB46C500464E8F /* FavoriteModel.swift */,
-				A6216F2429DB4A5600464E8F /* DetailsView.swift */,
+				A62291A629DB7A9A00A6850F /* AppDelegate.swift */,
+				A62291A829DB7A9A00A6850F /* SceneDelegate.swift */,
+				A62291AA29DB7A9A00A6850F /* ViewController.swift */,
+				A62291AC29DB7A9A00A6850F /* Main.storyboard */,
+				A62291AF29DB7A9B00A6850F /* Assets.xcassets */,
+				A62291B129DB7A9B00A6850F /* LaunchScreen.storyboard */,
+				A62291B429DB7A9B00A6850F /* Info.plist */,
 			);
-			path = FavoriteBook;
-			sourceTree = "<group>";
-		};
-		A6216F1A29DB467C00464E8F /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				A6216F1B29DB467C00464E8F /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
+			path = SnapchatClone;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A6216F1029DB467B00464E8F /* FavoriteBook */ = {
+		A62291A229DB7A9A00A6850F /* SnapchatClone */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6216F1F29DB467C00464E8F /* Build configuration list for PBXNativeTarget "FavoriteBook" */;
+			buildConfigurationList = A62291B729DB7A9B00A6850F /* Build configuration list for PBXNativeTarget "SnapchatClone" */;
 			buildPhases = (
-				A6216F0D29DB467B00464E8F /* Sources */,
-				A6216F0E29DB467B00464E8F /* Frameworks */,
-				A6216F0F29DB467B00464E8F /* Resources */,
+				A622919F29DB7A9A00A6850F /* Sources */,
+				A62291A029DB7A9A00A6850F /* Frameworks */,
+				A62291A129DB7A9A00A6850F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FavoriteBook;
-			productName = FavoriteBook;
-			productReference = A6216F1129DB467B00464E8F /* FavoriteBook.app */;
+			name = SnapchatClone;
+			productName = SnapchatClone;
+			productReference = A62291A329DB7A9A00A6850F /* SnapchatClone.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A6216F0929DB467B00464E8F /* Project object */ = {
+		A622919B29DB7A9A00A6850F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					A6216F1029DB467B00464E8F = {
+					A62291A229DB7A9A00A6850F = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
-			buildConfigurationList = A6216F0C29DB467B00464E8F /* Build configuration list for PBXProject "FavoriteBook" */;
+			buildConfigurationList = A622919E29DB7A9A00A6850F /* Build configuration list for PBXProject "SnapchatClone" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,44 +110,63 @@
 				en,
 				Base,
 			);
-			mainGroup = A6216F0829DB467B00464E8F;
-			productRefGroup = A6216F1229DB467B00464E8F /* Products */;
+			mainGroup = A622919A29DB7A9A00A6850F;
+			productRefGroup = A62291A429DB7A9A00A6850F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A6216F1029DB467B00464E8F /* FavoriteBook */,
+				A62291A229DB7A9A00A6850F /* SnapchatClone */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A6216F0F29DB467B00464E8F /* Resources */ = {
+		A62291A129DB7A9A00A6850F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6216F1C29DB467C00464E8F /* Preview Assets.xcassets in Resources */,
-				A6216F1929DB467C00464E8F /* Assets.xcassets in Resources */,
+				A62291B329DB7A9B00A6850F /* LaunchScreen.storyboard in Resources */,
+				A62291B029DB7A9B00A6850F /* Assets.xcassets in Resources */,
+				A62291AE29DB7A9A00A6850F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A6216F0D29DB467B00464E8F /* Sources */ = {
+		A622919F29DB7A9A00A6850F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6216F2329DB46C500464E8F /* FavoriteModel.swift in Sources */,
-				A6216F2529DB4A5600464E8F /* DetailsView.swift in Sources */,
-				A6216F1729DB467B00464E8F /* ContentView.swift in Sources */,
-				A6216F1529DB467B00464E8F /* FavoriteBookApp.swift in Sources */,
+				A62291AB29DB7A9A00A6850F /* ViewController.swift in Sources */,
+				A62291A729DB7A9A00A6850F /* AppDelegate.swift in Sources */,
+				A62291A929DB7A9A00A6850F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		A62291AC29DB7A9A00A6850F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A62291AD29DB7A9A00A6850F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A62291B129DB7A9B00A6850F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A62291B229DB7A9B00A6850F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		A6216F1D29DB467C00464E8F /* Debug */ = {
+		A62291B529DB7A9B00A6850F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -213,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		A6216F1E29DB467C00464E8F /* Release */ = {
+		A62291B629DB7A9B00A6850F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -267,20 +280,19 @@
 			};
 			name = Release;
 		};
-		A6216F2029DB467C00464E8F /* Debug */ = {
+		A62291B829DB7A9B00A6850F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FavoriteBook/Preview Content\"";
 				DEVELOPMENT_TEAM = YNH65UJDQA;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = SnapchatClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -288,7 +300,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.FavoriteBook;
+				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.SnapchatClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -296,20 +308,19 @@
 			};
 			name = Debug;
 		};
-		A6216F2129DB467C00464E8F /* Release */ = {
+		A62291B929DB7A9B00A6850F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FavoriteBook/Preview Content\"";
 				DEVELOPMENT_TEAM = YNH65UJDQA;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = SnapchatClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -317,7 +328,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.FavoriteBook;
+				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.SnapchatClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -328,25 +339,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A6216F0C29DB467B00464E8F /* Build configuration list for PBXProject "FavoriteBook" */ = {
+		A622919E29DB7A9A00A6850F /* Build configuration list for PBXProject "SnapchatClone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6216F1D29DB467C00464E8F /* Debug */,
-				A6216F1E29DB467C00464E8F /* Release */,
+				A62291B529DB7A9B00A6850F /* Debug */,
+				A62291B629DB7A9B00A6850F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6216F1F29DB467C00464E8F /* Build configuration list for PBXNativeTarget "FavoriteBook" */ = {
+		A62291B729DB7A9B00A6850F /* Build configuration list for PBXNativeTarget "SnapchatClone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6216F2029DB467C00464E8F /* Debug */,
-				A6216F2129DB467C00464E8F /* Release */,
+				A62291B829DB7A9B00A6850F /* Debug */,
+				A62291B929DB7A9B00A6850F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A6216F0929DB467B00464E8F /* Project object */;
+	rootObject = A622919B29DB7A9A00A6850F /* Project object */;
 }
