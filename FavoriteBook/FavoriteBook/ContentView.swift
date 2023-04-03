@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  FirstSwiftUIApp
+//  FavoriteBook
 //
 //  Created by Nevin Özkan on 3.04.2023.
 //
@@ -13,13 +13,7 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello SwiftUI")
-                .font(.title)
-                .foregroundColor(Color.blue)
-                .multilineTextAlignment(.center)
-                
-                
-            
+            Text("Hello, world!")
         }
         .padding()
     }
