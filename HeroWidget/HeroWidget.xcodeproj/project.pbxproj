@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A611679B29DDF99E00C9F83D /* HeroWidgetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A611679A29DDF99E00C9F83D /* HeroWidgetApp.swift */; };
-		A611679D29DDF99E00C9F83D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A611679C29DDF99E00C9F83D /* ContentView.swift */; };
-		A611679F29DDF99F00C9F83D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A611679E29DDF99F00C9F83D /* Assets.xcassets */; };
-		A61167A229DDF99F00C9F83D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A61167A129DDF99F00C9F83D /* Preview Assets.xcassets */; };
+		A692FB3B29DE0E6A003AA1AF /* HeroWidgetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A692FB3A29DE0E6A003AA1AF /* HeroWidgetApp.swift */; };
+		A692FB3D29DE0E6A003AA1AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A692FB3C29DE0E6A003AA1AF /* ContentView.swift */; };
+		A692FB3F29DE0E6B003AA1AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A692FB3E29DE0E6B003AA1AF /* Assets.xcassets */; };
+		A692FB4229DE0E6B003AA1AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A692FB4129DE0E6B003AA1AF /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A611679729DDF99E00C9F83D /* HeroWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A611679A29DDF99E00C9F83D /* HeroWidgetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroWidgetApp.swift; sourceTree = "<group>"; };
-		A611679C29DDF99E00C9F83D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A611679E29DDF99F00C9F83D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A61167A129DDF99F00C9F83D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A692FB3729DE0E6A003AA1AF /* HeroWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A692FB3A29DE0E6A003AA1AF /* HeroWidgetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroWidgetApp.swift; sourceTree = "<group>"; };
+		A692FB3C29DE0E6A003AA1AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A692FB3E29DE0E6B003AA1AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A692FB4129DE0E6B003AA1AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A611679429DDF99E00C9F83D /* Frameworks */ = {
+		A692FB3429DE0E6A003AA1AF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A611678E29DDF99E00C9F83D = {
+		A692FB2E29DE0E6A003AA1AF = {
 			isa = PBXGroup;
 			children = (
-				A611679929DDF99E00C9F83D /* HeroWidget */,
-				A611679829DDF99E00C9F83D /* Products */,
+				A692FB3929DE0E6A003AA1AF /* HeroWidget */,
+				A692FB3829DE0E6A003AA1AF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A611679829DDF99E00C9F83D /* Products */ = {
+		A692FB3829DE0E6A003AA1AF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A611679729DDF99E00C9F83D /* HeroWidget.app */,
+				A692FB3729DE0E6A003AA1AF /* HeroWidget.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A611679929DDF99E00C9F83D /* HeroWidget */ = {
+		A692FB3929DE0E6A003AA1AF /* HeroWidget */ = {
 			isa = PBXGroup;
 			children = (
-				A611679A29DDF99E00C9F83D /* HeroWidgetApp.swift */,
-				A611679C29DDF99E00C9F83D /* ContentView.swift */,
-				A611679E29DDF99F00C9F83D /* Assets.xcassets */,
-				A61167A029DDF99F00C9F83D /* Preview Content */,
+				A692FB3A29DE0E6A003AA1AF /* HeroWidgetApp.swift */,
+				A692FB3C29DE0E6A003AA1AF /* ContentView.swift */,
+				A692FB3E29DE0E6B003AA1AF /* Assets.xcassets */,
+				A692FB4029DE0E6B003AA1AF /* Preview Content */,
 			);
 			path = HeroWidget;
 			sourceTree = "<group>";
 		};
-		A61167A029DDF99F00C9F83D /* Preview Content */ = {
+		A692FB4029DE0E6B003AA1AF /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				A61167A129DDF99F00C9F83D /* Preview Assets.xcassets */,
+				A692FB4129DE0E6B003AA1AF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,13 +70,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A611679629DDF99E00C9F83D /* HeroWidget */ = {
+		A692FB3629DE0E6A003AA1AF /* HeroWidget */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A61167A529DDF99F00C9F83D /* Build configuration list for PBXNativeTarget "HeroWidget" */;
+			buildConfigurationList = A692FB4529DE0E6B003AA1AF /* Build configuration list for PBXNativeTarget "HeroWidget" */;
 			buildPhases = (
-				A611679329DDF99E00C9F83D /* Sources */,
-				A611679429DDF99E00C9F83D /* Frameworks */,
-				A611679529DDF99E00C9F83D /* Resources */,
+				A692FB3329DE0E6A003AA1AF /* Sources */,
+				A692FB3429DE0E6A003AA1AF /* Frameworks */,
+				A692FB3529DE0E6A003AA1AF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +84,25 @@
 			);
 			name = HeroWidget;
 			productName = HeroWidget;
-			productReference = A611679729DDF99E00C9F83D /* HeroWidget.app */;
+			productReference = A692FB3729DE0E6A003AA1AF /* HeroWidget.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A611678F29DDF99E00C9F83D /* Project object */ = {
+		A692FB2F29DE0E6A003AA1AF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					A611679629DDF99E00C9F83D = {
+					A692FB3629DE0E6A003AA1AF = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
-			buildConfigurationList = A611679229DDF99E00C9F83D /* Build configuration list for PBXProject "HeroWidget" */;
+			buildConfigurationList = A692FB3229DE0E6A003AA1AF /* Build configuration list for PBXProject "HeroWidget" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = A611678E29DDF99E00C9F83D;
-			productRefGroup = A611679829DDF99E00C9F83D /* Products */;
+			mainGroup = A692FB2E29DE0E6A003AA1AF;
+			productRefGroup = A692FB3829DE0E6A003AA1AF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A611679629DDF99E00C9F83D /* HeroWidget */,
+				A692FB3629DE0E6A003AA1AF /* HeroWidget */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A611679529DDF99E00C9F83D /* Resources */ = {
+		A692FB3529DE0E6A003AA1AF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A61167A229DDF99F00C9F83D /* Preview Assets.xcassets in Resources */,
-				A611679F29DDF99F00C9F83D /* Assets.xcassets in Resources */,
+				A692FB4229DE0E6B003AA1AF /* Preview Assets.xcassets in Resources */,
+				A692FB3F29DE0E6B003AA1AF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A611679329DDF99E00C9F83D /* Sources */ = {
+		A692FB3329DE0E6A003AA1AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A611679D29DDF99E00C9F83D /* ContentView.swift in Sources */,
-				A611679B29DDF99E00C9F83D /* HeroWidgetApp.swift in Sources */,
+				A692FB3D29DE0E6A003AA1AF /* ContentView.swift in Sources */,
+				A692FB3B29DE0E6A003AA1AF /* HeroWidgetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A61167A329DDF99F00C9F83D /* Debug */ = {
+		A692FB4329DE0E6B003AA1AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		A61167A429DDF99F00C9F83D /* Release */ = {
+		A692FB4429DE0E6B003AA1AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,7 +259,7 @@
 			};
 			name = Release;
 		};
-		A61167A629DDF99F00C9F83D /* Debug */ = {
+		A692FB4629DE0E6B003AA1AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -288,7 +288,7 @@
 			};
 			name = Debug;
 		};
-		A61167A729DDF99F00C9F83D /* Release */ = {
+		A692FB4729DE0E6B003AA1AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -320,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A611679229DDF99E00C9F83D /* Build configuration list for PBXProject "HeroWidget" */ = {
+		A692FB3229DE0E6A003AA1AF /* Build configuration list for PBXProject "HeroWidget" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A61167A329DDF99F00C9F83D /* Debug */,
-				A61167A429DDF99F00C9F83D /* Release */,
+				A692FB4329DE0E6B003AA1AF /* Debug */,
+				A692FB4429DE0E6B003AA1AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A61167A529DDF99F00C9F83D /* Build configuration list for PBXNativeTarget "HeroWidget" */ = {
+		A692FB4529DE0E6B003AA1AF /* Build configuration list for PBXNativeTarget "HeroWidget" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A61167A629DDF99F00C9F83D /* Debug */,
-				A61167A729DDF99F00C9F83D /* Release */,
+				A692FB4629DE0E6B003AA1AF /* Debug */,
+				A692FB4729DE0E6B003AA1AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A611678F29DDF99E00C9F83D /* Project object */;
+	rootObject = A692FB2F29DE0E6A003AA1AF /* Project object */;
 }
