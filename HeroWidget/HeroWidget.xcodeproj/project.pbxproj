@@ -7,33 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A62B231B29DCD10600865B37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62B231A29DCD10600865B37 /* AppDelegate.swift */; };
-		A62B231D29DCD10600865B37 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62B231C29DCD10600865B37 /* SceneDelegate.swift */; };
-		A62B232429DCD10700865B37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A62B232329DCD10700865B37 /* Assets.xcassets */; };
-		A62B232729DCD10700865B37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A62B232529DCD10700865B37 /* LaunchScreen.storyboard */; };
-		A62B232F29DCD44200865B37 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62B232E29DCD44200865B37 /* View.swift */; };
-		A62B233129DCD4E400865B37 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62B233029DCD4E400865B37 /* Interactor.swift */; };
-		A62B233329DCD51D00865B37 /* Prsenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62B233229DCD51D00865B37 /* Prsenter.swift */; };
-		A62B233529DCD52F00865B37 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62B233429DCD52F00865B37 /* Entity.swift */; };
-		A62B233729DCD53E00865B37 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62B233629DCD53E00865B37 /* Router.swift */; };
+		A611679B29DDF99E00C9F83D /* HeroWidgetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A611679A29DDF99E00C9F83D /* HeroWidgetApp.swift */; };
+		A611679D29DDF99E00C9F83D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A611679C29DDF99E00C9F83D /* ContentView.swift */; };
+		A611679F29DDF99F00C9F83D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A611679E29DDF99F00C9F83D /* Assets.xcassets */; };
+		A61167A229DDF99F00C9F83D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A61167A129DDF99F00C9F83D /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A62B231729DCD10600865B37 /* CryptoViper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoViper.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A62B231A29DCD10600865B37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A62B231C29DCD10600865B37 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A62B232329DCD10700865B37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A62B232629DCD10700865B37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A62B232829DCD10700865B37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A62B232E29DCD44200865B37 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
-		A62B233029DCD4E400865B37 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
-		A62B233229DCD51D00865B37 /* Prsenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prsenter.swift; sourceTree = "<group>"; };
-		A62B233429DCD52F00865B37 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
-		A62B233629DCD53E00865B37 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		A611679729DDF99E00C9F83D /* HeroWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A611679A29DDF99E00C9F83D /* HeroWidgetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroWidgetApp.swift; sourceTree = "<group>"; };
+		A611679C29DDF99E00C9F83D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A611679E29DDF99F00C9F83D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A61167A129DDF99F00C9F83D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A62B231429DCD10600865B37 /* Frameworks */ = {
+		A611679429DDF99E00C9F83D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,75 +32,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A62B230E29DCD10600865B37 = {
+		A611678E29DDF99E00C9F83D = {
 			isa = PBXGroup;
 			children = (
-				A62B231929DCD10600865B37 /* CryptoViper */,
-				A62B231829DCD10600865B37 /* Products */,
+				A611679929DDF99E00C9F83D /* HeroWidget */,
+				A611679829DDF99E00C9F83D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A62B231829DCD10600865B37 /* Products */ = {
+		A611679829DDF99E00C9F83D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A62B231729DCD10600865B37 /* CryptoViper.app */,
+				A611679729DDF99E00C9F83D /* HeroWidget.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A62B231929DCD10600865B37 /* CryptoViper */ = {
+		A611679929DDF99E00C9F83D /* HeroWidget */ = {
 			isa = PBXGroup;
 			children = (
-				A62B231A29DCD10600865B37 /* AppDelegate.swift */,
-				A62B231C29DCD10600865B37 /* SceneDelegate.swift */,
-				A62B232329DCD10700865B37 /* Assets.xcassets */,
-				A62B232529DCD10700865B37 /* LaunchScreen.storyboard */,
-				A62B232829DCD10700865B37 /* Info.plist */,
-				A62B232E29DCD44200865B37 /* View.swift */,
-				A62B233029DCD4E400865B37 /* Interactor.swift */,
-				A62B233229DCD51D00865B37 /* Prsenter.swift */,
-				A62B233429DCD52F00865B37 /* Entity.swift */,
-				A62B233629DCD53E00865B37 /* Router.swift */,
+				A611679A29DDF99E00C9F83D /* HeroWidgetApp.swift */,
+				A611679C29DDF99E00C9F83D /* ContentView.swift */,
+				A611679E29DDF99F00C9F83D /* Assets.xcassets */,
+				A61167A029DDF99F00C9F83D /* Preview Content */,
 			);
-			path = CryptoViper;
+			path = HeroWidget;
+			sourceTree = "<group>";
+		};
+		A61167A029DDF99F00C9F83D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A61167A129DDF99F00C9F83D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A62B231629DCD10600865B37 /* CryptoViper */ = {
+		A611679629DDF99E00C9F83D /* HeroWidget */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A62B232B29DCD10700865B37 /* Build configuration list for PBXNativeTarget "CryptoViper" */;
+			buildConfigurationList = A61167A529DDF99F00C9F83D /* Build configuration list for PBXNativeTarget "HeroWidget" */;
 			buildPhases = (
-				A62B231329DCD10600865B37 /* Sources */,
-				A62B231429DCD10600865B37 /* Frameworks */,
-				A62B231529DCD10600865B37 /* Resources */,
+				A611679329DDF99E00C9F83D /* Sources */,
+				A611679429DDF99E00C9F83D /* Frameworks */,
+				A611679529DDF99E00C9F83D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CryptoViper;
-			productName = CryptoViper;
-			productReference = A62B231729DCD10600865B37 /* CryptoViper.app */;
+			name = HeroWidget;
+			productName = HeroWidget;
+			productReference = A611679729DDF99E00C9F83D /* HeroWidget.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A62B230F29DCD10600865B37 /* Project object */ = {
+		A611678F29DDF99E00C9F83D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					A62B231629DCD10600865B37 = {
+					A611679629DDF99E00C9F83D = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
-			buildConfigurationList = A62B231229DCD10600865B37 /* Build configuration list for PBXProject "CryptoViper" */;
+			buildConfigurationList = A611679229DDF99E00C9F83D /* Build configuration list for PBXProject "HeroWidget" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,58 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = A62B230E29DCD10600865B37;
-			productRefGroup = A62B231829DCD10600865B37 /* Products */;
+			mainGroup = A611678E29DDF99E00C9F83D;
+			productRefGroup = A611679829DDF99E00C9F83D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A62B231629DCD10600865B37 /* CryptoViper */,
+				A611679629DDF99E00C9F83D /* HeroWidget */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A62B231529DCD10600865B37 /* Resources */ = {
+		A611679529DDF99E00C9F83D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A62B232729DCD10700865B37 /* LaunchScreen.storyboard in Resources */,
-				A62B232429DCD10700865B37 /* Assets.xcassets in Resources */,
+				A61167A229DDF99F00C9F83D /* Preview Assets.xcassets in Resources */,
+				A611679F29DDF99F00C9F83D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A62B231329DCD10600865B37 /* Sources */ = {
+		A611679329DDF99E00C9F83D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A62B233729DCD53E00865B37 /* Router.swift in Sources */,
-				A62B233329DCD51D00865B37 /* Prsenter.swift in Sources */,
-				A62B232F29DCD44200865B37 /* View.swift in Sources */,
-				A62B233529DCD52F00865B37 /* Entity.swift in Sources */,
-				A62B233129DCD4E400865B37 /* Interactor.swift in Sources */,
-				A62B231B29DCD10600865B37 /* AppDelegate.swift in Sources */,
-				A62B231D29DCD10600865B37 /* SceneDelegate.swift in Sources */,
+				A611679D29DDF99E00C9F83D /* ContentView.swift in Sources */,
+				A611679B29DDF99E00C9F83D /* HeroWidgetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		A62B232529DCD10700865B37 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A62B232629DCD10700865B37 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		A62B232929DCD10700865B37 /* Debug */ = {
+		A61167A329DDF99F00C9F83D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		A62B232A29DCD10700865B37 /* Release */ = {
+		A61167A429DDF99F00C9F83D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -284,19 +259,20 @@
 			};
 			name = Release;
 		};
-		A62B232C29DCD10700865B37 /* Debug */ = {
+		A61167A629DDF99F00C9F83D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HeroWidget/Preview Content\"";
 				DEVELOPMENT_TEAM = YNH65UJDQA;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CryptoViper/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,7 +280,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.CryptoViper;
+				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.HeroWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -312,19 +288,20 @@
 			};
 			name = Debug;
 		};
-		A62B232D29DCD10700865B37 /* Release */ = {
+		A61167A729DDF99F00C9F83D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HeroWidget/Preview Content\"";
 				DEVELOPMENT_TEAM = YNH65UJDQA;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CryptoViper/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,7 +309,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.CryptoViper;
+				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.HeroWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -343,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A62B231229DCD10600865B37 /* Build configuration list for PBXProject "CryptoViper" */ = {
+		A611679229DDF99E00C9F83D /* Build configuration list for PBXProject "HeroWidget" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A62B232929DCD10700865B37 /* Debug */,
-				A62B232A29DCD10700865B37 /* Release */,
+				A61167A329DDF99F00C9F83D /* Debug */,
+				A61167A429DDF99F00C9F83D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A62B232B29DCD10700865B37 /* Build configuration list for PBXNativeTarget "CryptoViper" */ = {
+		A61167A529DDF99F00C9F83D /* Build configuration list for PBXNativeTarget "HeroWidget" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A62B232C29DCD10700865B37 /* Debug */,
-				A62B232D29DCD10700865B37 /* Release */,
+				A61167A629DDF99F00C9F83D /* Debug */,
+				A61167A729DDF99F00C9F83D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A62B230F29DCD10600865B37 /* Project object */;
+	rootObject = A611678F29DDF99E00C9F83D /* Project object */;
 }
