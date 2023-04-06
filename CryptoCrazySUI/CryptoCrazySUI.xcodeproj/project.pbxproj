@@ -7,24 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A6855DF729DF434200204499 /* AsyncImageSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6855DF629DF434200204499 /* AsyncImageSwiftUIApp.swift */; };
-		A6855DF929DF434200204499 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6855DF829DF434200204499 /* ContentView.swift */; };
-		A6855DFB29DF434300204499 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6855DFA29DF434300204499 /* Assets.xcassets */; };
-		A6855DFE29DF434300204499 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6855DFD29DF434300204499 /* Preview Assets.xcassets */; };
-		A6855E0529DF439500204499 /* SuperHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6855E0429DF439500204499 /* SuperHero.swift */; };
+		A607D27C29DF4A56004FC34C /* CryptoCrazySUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A607D27B29DF4A56004FC34C /* CryptoCrazySUIApp.swift */; };
+		A607D27E29DF4A56004FC34C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A607D27D29DF4A56004FC34C /* ContentView.swift */; };
+		A607D28029DF4A57004FC34C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A607D27F29DF4A57004FC34C /* Assets.xcassets */; };
+		A607D28329DF4A57004FC34C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A607D28229DF4A57004FC34C /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A6855DF329DF434200204499 /* AsyncImageSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsyncImageSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6855DF629DF434200204499 /* AsyncImageSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageSwiftUIApp.swift; sourceTree = "<group>"; };
-		A6855DF829DF434200204499 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A6855DFA29DF434300204499 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A6855DFD29DF434300204499 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A6855E0429DF439500204499 /* SuperHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHero.swift; sourceTree = "<group>"; };
+		A607D27829DF4A56004FC34C /* CryptoCrazySUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoCrazySUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A607D27B29DF4A56004FC34C /* CryptoCrazySUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCrazySUIApp.swift; sourceTree = "<group>"; };
+		A607D27D29DF4A56004FC34C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A607D27F29DF4A57004FC34C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A607D28229DF4A57004FC34C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A6855DF029DF434200204499 /* Frameworks */ = {
+		A607D27529DF4A56004FC34C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,38 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A6855DEA29DF434200204499 = {
+		A607D26F29DF4A56004FC34C = {
 			isa = PBXGroup;
 			children = (
-				A6855DF529DF434200204499 /* AsyncImageSwiftUI */,
-				A6855DF429DF434200204499 /* Products */,
+				A607D27A29DF4A56004FC34C /* CryptoCrazySUI */,
+				A607D27929DF4A56004FC34C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A6855DF429DF434200204499 /* Products */ = {
+		A607D27929DF4A56004FC34C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A6855DF329DF434200204499 /* AsyncImageSwiftUI.app */,
+				A607D27829DF4A56004FC34C /* CryptoCrazySUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A6855DF529DF434200204499 /* AsyncImageSwiftUI */ = {
+		A607D27A29DF4A56004FC34C /* CryptoCrazySUI */ = {
 			isa = PBXGroup;
 			children = (
-				A6855DF629DF434200204499 /* AsyncImageSwiftUIApp.swift */,
-				A6855DF829DF434200204499 /* ContentView.swift */,
-				A6855DFA29DF434300204499 /* Assets.xcassets */,
-				A6855DFC29DF434300204499 /* Preview Content */,
-				A6855E0429DF439500204499 /* SuperHero.swift */,
+				A607D27B29DF4A56004FC34C /* CryptoCrazySUIApp.swift */,
+				A607D27D29DF4A56004FC34C /* ContentView.swift */,
+				A607D27F29DF4A57004FC34C /* Assets.xcassets */,
+				A607D28129DF4A57004FC34C /* Preview Content */,
 			);
-			path = AsyncImageSwiftUI;
+			path = CryptoCrazySUI;
 			sourceTree = "<group>";
 		};
-		A6855DFC29DF434300204499 /* Preview Content */ = {
+		A607D28129DF4A57004FC34C /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				A6855DFD29DF434300204499 /* Preview Assets.xcassets */,
+				A607D28229DF4A57004FC34C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -73,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A6855DF229DF434200204499 /* AsyncImageSwiftUI */ = {
+		A607D27729DF4A56004FC34C /* CryptoCrazySUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6855E0129DF434300204499 /* Build configuration list for PBXNativeTarget "AsyncImageSwiftUI" */;
+			buildConfigurationList = A607D28629DF4A57004FC34C /* Build configuration list for PBXNativeTarget "CryptoCrazySUI" */;
 			buildPhases = (
-				A6855DEF29DF434200204499 /* Sources */,
-				A6855DF029DF434200204499 /* Frameworks */,
-				A6855DF129DF434200204499 /* Resources */,
+				A607D27429DF4A56004FC34C /* Sources */,
+				A607D27529DF4A56004FC34C /* Frameworks */,
+				A607D27629DF4A56004FC34C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AsyncImageSwiftUI;
-			productName = AsyncImageSwiftUI;
-			productReference = A6855DF329DF434200204499 /* AsyncImageSwiftUI.app */;
+			name = CryptoCrazySUI;
+			productName = CryptoCrazySUI;
+			productReference = A607D27829DF4A56004FC34C /* CryptoCrazySUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A6855DEB29DF434200204499 /* Project object */ = {
+		A607D27029DF4A56004FC34C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					A6855DF229DF434200204499 = {
+					A607D27729DF4A56004FC34C = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
-			buildConfigurationList = A6855DEE29DF434200204499 /* Build configuration list for PBXProject "AsyncImageSwiftUI" */;
+			buildConfigurationList = A607D27329DF4A56004FC34C /* Build configuration list for PBXProject "CryptoCrazySUI" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,43 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = A6855DEA29DF434200204499;
-			productRefGroup = A6855DF429DF434200204499 /* Products */;
+			mainGroup = A607D26F29DF4A56004FC34C;
+			productRefGroup = A607D27929DF4A56004FC34C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A6855DF229DF434200204499 /* AsyncImageSwiftUI */,
+				A607D27729DF4A56004FC34C /* CryptoCrazySUI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A6855DF129DF434200204499 /* Resources */ = {
+		A607D27629DF4A56004FC34C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6855DFE29DF434300204499 /* Preview Assets.xcassets in Resources */,
-				A6855DFB29DF434300204499 /* Assets.xcassets in Resources */,
+				A607D28329DF4A57004FC34C /* Preview Assets.xcassets in Resources */,
+				A607D28029DF4A57004FC34C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A6855DEF29DF434200204499 /* Sources */ = {
+		A607D27429DF4A56004FC34C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6855DF929DF434200204499 /* ContentView.swift in Sources */,
-				A6855DF729DF434200204499 /* AsyncImageSwiftUIApp.swift in Sources */,
-				A6855E0529DF439500204499 /* SuperHero.swift in Sources */,
+				A607D27E29DF4A56004FC34C /* ContentView.swift in Sources */,
+				A607D27C29DF4A56004FC34C /* CryptoCrazySUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A6855DFF29DF434300204499 /* Debug */ = {
+		A607D28429DF4A57004FC34C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -209,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		A6855E0029DF434300204499 /* Release */ = {
+		A607D28529DF4A57004FC34C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -263,14 +259,14 @@
 			};
 			name = Release;
 		};
-		A6855E0229DF434300204499 /* Debug */ = {
+		A607D28729DF4A57004FC34C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AsyncImageSwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CryptoCrazySUI/Preview Content\"";
 				DEVELOPMENT_TEAM = YNH65UJDQA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -284,7 +280,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.AsyncImageSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.CryptoCrazySUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -292,14 +288,14 @@
 			};
 			name = Debug;
 		};
-		A6855E0329DF434300204499 /* Release */ = {
+		A607D28829DF4A57004FC34C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AsyncImageSwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CryptoCrazySUI/Preview Content\"";
 				DEVELOPMENT_TEAM = YNH65UJDQA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -313,7 +309,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.AsyncImageSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.CryptoCrazySUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -324,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A6855DEE29DF434200204499 /* Build configuration list for PBXProject "AsyncImageSwiftUI" */ = {
+		A607D27329DF4A56004FC34C /* Build configuration list for PBXProject "CryptoCrazySUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6855DFF29DF434300204499 /* Debug */,
-				A6855E0029DF434300204499 /* Release */,
+				A607D28429DF4A57004FC34C /* Debug */,
+				A607D28529DF4A57004FC34C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6855E0129DF434300204499 /* Build configuration list for PBXNativeTarget "AsyncImageSwiftUI" */ = {
+		A607D28629DF4A57004FC34C /* Build configuration list for PBXNativeTarget "CryptoCrazySUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6855E0229DF434300204499 /* Debug */,
-				A6855E0329DF434300204499 /* Release */,
+				A607D28729DF4A57004FC34C /* Debug */,
+				A607D28829DF4A57004FC34C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A6855DEB29DF434200204499 /* Project object */;
+	rootObject = A607D27029DF4A56004FC34C /* Project object */;
 }
