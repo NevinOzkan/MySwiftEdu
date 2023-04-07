@@ -8,10 +8,35 @@
 import SwiftUI
 
 struct SecondView: View {
+    @State var path: [Dog] = []
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+        NavigationStack(path: $path) {
+        List(dogs) {  dog in
+        NavigationLink(dog.name,value: dog)
+        }.navigationDestination(for: Dog.self) { dog in
+        VStack{
+        Text(dog.name)
+/*
+    Button("Go Back") {
+    path = []
+    //popToRootViewController
+                                    
 }
+ */
+    Button("Add to Path") {
+        path = [
+        dogs[0],
+        dogs[1]
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+    
+
 
 struct SecondView_Previews: PreviewProvider {
     static var previews: some View {
