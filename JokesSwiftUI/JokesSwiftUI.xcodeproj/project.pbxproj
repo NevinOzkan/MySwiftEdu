@@ -7,28 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A607D27C29DF4A56004FC34C /* CryptoCrazySUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A607D27B29DF4A56004FC34C /* CryptoCrazySUIApp.swift */; };
-		A607D27E29DF4A56004FC34C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A607D27D29DF4A56004FC34C /* MainView.swift */; };
-		A607D28029DF4A57004FC34C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A607D27F29DF4A57004FC34C /* Assets.xcassets */; };
-		A607D28329DF4A57004FC34C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A607D28229DF4A57004FC34C /* Preview Assets.xcassets */; };
-		A607D28E29DF4B51004FC34C /* CryptoCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = A607D28D29DF4B51004FC34C /* CryptoCurrency.swift */; };
-		A607D29029DF4C04004FC34C /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A607D28F29DF4C04004FC34C /* WebService.swift */; };
-		A607D29229DF4CAC004FC34C /* CryptoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A607D29129DF4CAC004FC34C /* CryptoViewModel.swift */; };
+		A6267A1E29DF537D0007C084 /* JokesSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6267A1D29DF537D0007C084 /* JokesSwiftUIApp.swift */; };
+		A6267A2029DF537D0007C084 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6267A1F29DF537D0007C084 /* ContentView.swift */; };
+		A6267A2229DF537E0007C084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6267A2129DF537E0007C084 /* Assets.xcassets */; };
+		A6267A2529DF537E0007C084 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6267A2429DF537E0007C084 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A607D27829DF4A56004FC34C /* CryptoCrazySUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoCrazySUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A607D27B29DF4A56004FC34C /* CryptoCrazySUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCrazySUIApp.swift; sourceTree = "<group>"; };
-		A607D27D29DF4A56004FC34C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		A607D27F29DF4A57004FC34C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A607D28229DF4A57004FC34C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A607D28D29DF4B51004FC34C /* CryptoCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrency.swift; sourceTree = "<group>"; };
-		A607D28F29DF4C04004FC34C /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
-		A607D29129DF4CAC004FC34C /* CryptoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViewModel.swift; sourceTree = "<group>"; };
+		A6267A1A29DF537D0007C084 /* JokesSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JokesSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6267A1D29DF537D0007C084 /* JokesSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesSwiftUIApp.swift; sourceTree = "<group>"; };
+		A6267A1F29DF537D0007C084 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A6267A2129DF537E0007C084 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6267A2429DF537E0007C084 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A607D27529DF4A56004FC34C /* Frameworks */ = {
+		A6267A1729DF537D0007C084 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,112 +32,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A607D26F29DF4A56004FC34C = {
+		A6267A1129DF537D0007C084 = {
 			isa = PBXGroup;
 			children = (
-				A607D27A29DF4A56004FC34C /* CryptoCrazySUI */,
-				A607D27929DF4A56004FC34C /* Products */,
+				A6267A1C29DF537D0007C084 /* JokesSwiftUI */,
+				A6267A1B29DF537D0007C084 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A607D27929DF4A56004FC34C /* Products */ = {
+		A6267A1B29DF537D0007C084 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A607D27829DF4A56004FC34C /* CryptoCrazySUI.app */,
+				A6267A1A29DF537D0007C084 /* JokesSwiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A607D27A29DF4A56004FC34C /* CryptoCrazySUI */ = {
+		A6267A1C29DF537D0007C084 /* JokesSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				A607D28C29DF4A70004FC34C /* Service */,
-				A607D28B29DF4A6A004FC34C /* ViewModel */,
-				A607D28A29DF4A64004FC34C /* View */,
-				A607D28929DF4A5E004FC34C /* Model */,
-				A607D27B29DF4A56004FC34C /* CryptoCrazySUIApp.swift */,
-				A607D27F29DF4A57004FC34C /* Assets.xcassets */,
-				A607D28129DF4A57004FC34C /* Preview Content */,
+				A6267A1D29DF537D0007C084 /* JokesSwiftUIApp.swift */,
+				A6267A1F29DF537D0007C084 /* ContentView.swift */,
+				A6267A2129DF537E0007C084 /* Assets.xcassets */,
+				A6267A2329DF537E0007C084 /* Preview Content */,
 			);
-			path = CryptoCrazySUI;
+			path = JokesSwiftUI;
 			sourceTree = "<group>";
 		};
-		A607D28129DF4A57004FC34C /* Preview Content */ = {
+		A6267A2329DF537E0007C084 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				A607D28229DF4A57004FC34C /* Preview Assets.xcassets */,
+				A6267A2429DF537E0007C084 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		A607D28929DF4A5E004FC34C /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				A607D28D29DF4B51004FC34C /* CryptoCurrency.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		A607D28A29DF4A64004FC34C /* View */ = {
-			isa = PBXGroup;
-			children = (
-				A607D27D29DF4A56004FC34C /* MainView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		A607D28B29DF4A6A004FC34C /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				A607D29129DF4CAC004FC34C /* CryptoViewModel.swift */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		A607D28C29DF4A70004FC34C /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				A607D28F29DF4C04004FC34C /* WebService.swift */,
-			);
-			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A607D27729DF4A56004FC34C /* CryptoCrazySUI */ = {
+		A6267A1929DF537D0007C084 /* JokesSwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A607D28629DF4A57004FC34C /* Build configuration list for PBXNativeTarget "CryptoCrazySUI" */;
+			buildConfigurationList = A6267A2829DF537E0007C084 /* Build configuration list for PBXNativeTarget "JokesSwiftUI" */;
 			buildPhases = (
-				A607D27429DF4A56004FC34C /* Sources */,
-				A607D27529DF4A56004FC34C /* Frameworks */,
-				A607D27629DF4A56004FC34C /* Resources */,
+				A6267A1629DF537D0007C084 /* Sources */,
+				A6267A1729DF537D0007C084 /* Frameworks */,
+				A6267A1829DF537D0007C084 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CryptoCrazySUI;
-			productName = CryptoCrazySUI;
-			productReference = A607D27829DF4A56004FC34C /* CryptoCrazySUI.app */;
+			name = JokesSwiftUI;
+			productName = JokesSwiftUI;
+			productReference = A6267A1A29DF537D0007C084 /* JokesSwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A607D27029DF4A56004FC34C /* Project object */ = {
+		A6267A1229DF537D0007C084 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					A607D27729DF4A56004FC34C = {
+					A6267A1929DF537D0007C084 = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
-			buildConfigurationList = A607D27329DF4A56004FC34C /* Build configuration list for PBXProject "CryptoCrazySUI" */;
+			buildConfigurationList = A6267A1529DF537D0007C084 /* Build configuration list for PBXProject "JokesSwiftUI" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -151,45 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = A607D26F29DF4A56004FC34C;
-			productRefGroup = A607D27929DF4A56004FC34C /* Products */;
+			mainGroup = A6267A1129DF537D0007C084;
+			productRefGroup = A6267A1B29DF537D0007C084 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A607D27729DF4A56004FC34C /* CryptoCrazySUI */,
+				A6267A1929DF537D0007C084 /* JokesSwiftUI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A607D27629DF4A56004FC34C /* Resources */ = {
+		A6267A1829DF537D0007C084 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A607D28329DF4A57004FC34C /* Preview Assets.xcassets in Resources */,
-				A607D28029DF4A57004FC34C /* Assets.xcassets in Resources */,
+				A6267A2529DF537E0007C084 /* Preview Assets.xcassets in Resources */,
+				A6267A2229DF537E0007C084 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A607D27429DF4A56004FC34C /* Sources */ = {
+		A6267A1629DF537D0007C084 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A607D27E29DF4A56004FC34C /* MainView.swift in Sources */,
-				A607D28E29DF4B51004FC34C /* CryptoCurrency.swift in Sources */,
-				A607D29029DF4C04004FC34C /* WebService.swift in Sources */,
-				A607D27C29DF4A56004FC34C /* CryptoCrazySUIApp.swift in Sources */,
-				A607D29229DF4CAC004FC34C /* CryptoViewModel.swift in Sources */,
+				A6267A2029DF537D0007C084 /* ContentView.swift in Sources */,
+				A6267A1E29DF537D0007C084 /* JokesSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A607D28429DF4A57004FC34C /* Debug */ = {
+		A6267A2629DF537E0007C084 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -249,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		A607D28529DF4A57004FC34C /* Release */ = {
+		A6267A2729DF537E0007C084 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -303,14 +259,14 @@
 			};
 			name = Release;
 		};
-		A607D28729DF4A57004FC34C /* Debug */ = {
+		A6267A2929DF537E0007C084 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CryptoCrazySUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"JokesSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = YNH65UJDQA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -324,7 +280,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.CryptoCrazySUI;
+				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.JokesSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -332,14 +288,14 @@
 			};
 			name = Debug;
 		};
-		A607D28829DF4A57004FC34C /* Release */ = {
+		A6267A2A29DF537E0007C084 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CryptoCrazySUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"JokesSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = YNH65UJDQA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -353,7 +309,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.CryptoCrazySUI;
+				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.JokesSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -364,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A607D27329DF4A56004FC34C /* Build configuration list for PBXProject "CryptoCrazySUI" */ = {
+		A6267A1529DF537D0007C084 /* Build configuration list for PBXProject "JokesSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A607D28429DF4A57004FC34C /* Debug */,
-				A607D28529DF4A57004FC34C /* Release */,
+				A6267A2629DF537E0007C084 /* Debug */,
+				A6267A2729DF537E0007C084 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A607D28629DF4A57004FC34C /* Build configuration list for PBXNativeTarget "CryptoCrazySUI" */ = {
+		A6267A2829DF537E0007C084 /* Build configuration list for PBXNativeTarget "JokesSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A607D28729DF4A57004FC34C /* Debug */,
-				A607D28829DF4A57004FC34C /* Release */,
+				A6267A2929DF537E0007C084 /* Debug */,
+				A6267A2A29DF537E0007C084 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A607D27029DF4A56004FC34C /* Project object */;
+	rootObject = A6267A1229DF537D0007C084 /* Project object */;
 }
