@@ -5,16 +5,44 @@
 //  Created by Nevin Özkan on 7.04.2023.
 //
 
+import Foundation
 import SwiftUI
 
-struct CircularShape: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct CircularShape : Shape {
+    var percent : Double
+    var startAngle : Double
+    
+    typealias AnimatableData = Double
+    var animatableData: Double {
+        get {
+            return percent
+        }
+        
+        set {
+            percent = newValue
+        }
     }
-}
-
-struct CircularShape_Previews: PreviewProvider {
-    static var previews: some View {
-        CircularShape()
+    
+    init(percent: Double=100, startAngle: Double = -90){
+        self.percent = percent
+        self.startAngle = startAngle
     }
+    
+    static func percentToAngle(percent: Double, startAngle:Double) -> Double {
+        return (percent / 100 * 360 + startAngle)
+    }
+    
+    func path(in rect: CGRect) -> Path {
+        let width = rect.width
+        let height = rect.height
+        let radius = min(width,height) / 2
+        let center = CGPoint(x: width/2, y: height/2)
+        let endAngle = Self.percentToAngle(percent: percent, startAngle: startAngle)
+        
+        return Path { path in
+            path.addArc(center: center, radius: radius, startAngle: Angle(degrees: startAngle), endAngle: Angle(degrees: endAngle), clockwise: false)
+            
+        }
+    }
+    
 }
