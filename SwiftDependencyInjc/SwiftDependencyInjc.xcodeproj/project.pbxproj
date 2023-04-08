@@ -13,6 +13,10 @@
 		A63E7F6A29E0D3B700B1E0FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A63E7F6829E0D3B700B1E0FF /* Main.storyboard */; };
 		A63E7F6C29E0D3B800B1E0FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A63E7F6B29E0D3B800B1E0FF /* Assets.xcassets */; };
 		A63E7F6F29E0D3B800B1E0FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A63E7F6D29E0D3B800B1E0FF /* LaunchScreen.storyboard */; };
+		A63E7F7829E0D5DF00B1E0FF /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = A63E7F7729E0D5DF00B1E0FF /* Swinject */; };
+		A63E7F7A29E0D6E800B1E0FF /* BackgroundProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63E7F7929E0D6E800B1E0FF /* BackgroundProviderProtocol.swift */; };
+		A63E7F7C29E0D71A00B1E0FF /* BackgroundProvidingClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63E7F7B29E0D71A00B1E0FF /* BackgroundProvidingClass.swift */; };
+		A63E7F7E29E0D76E00B1E0FF /* AnotherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63E7F7D29E0D76E00B1E0FF /* AnotherVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,9 @@
 		A63E7F6B29E0D3B800B1E0FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A63E7F6E29E0D3B800B1E0FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A63E7F7029E0D3B800B1E0FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A63E7F7929E0D6E800B1E0FF /* BackgroundProviderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundProviderProtocol.swift; sourceTree = "<group>"; };
+		A63E7F7B29E0D71A00B1E0FF /* BackgroundProvidingClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundProvidingClass.swift; sourceTree = "<group>"; };
+		A63E7F7D29E0D76E00B1E0FF /* AnotherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A63E7F7829E0D5DF00B1E0FF /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +71,9 @@
 				A63E7F6B29E0D3B800B1E0FF /* Assets.xcassets */,
 				A63E7F6D29E0D3B800B1E0FF /* LaunchScreen.storyboard */,
 				A63E7F7029E0D3B800B1E0FF /* Info.plist */,
+				A63E7F7929E0D6E800B1E0FF /* BackgroundProviderProtocol.swift */,
+				A63E7F7B29E0D71A00B1E0FF /* BackgroundProvidingClass.swift */,
+				A63E7F7D29E0D76E00B1E0FF /* AnotherVC.swift */,
 			);
 			path = SwiftDependencyInjc;
 			sourceTree = "<group>";
@@ -83,6 +94,9 @@
 			dependencies = (
 			);
 			name = SwiftDependencyInjc;
+			packageProductDependencies = (
+				A63E7F7729E0D5DF00B1E0FF /* Swinject */,
+			);
 			productName = SwiftDependencyInjc;
 			productReference = A63E7F5F29E0D3B700B1E0FF /* SwiftDependencyInjc.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +125,9 @@
 				Base,
 			);
 			mainGroup = A63E7F5629E0D3B700B1E0FF;
+			packageReferences = (
+				A63E7F7629E0D5DF00B1E0FF /* XCRemoteSwiftPackageReference "Swinject" */,
+			);
 			productRefGroup = A63E7F6029E0D3B700B1E0FF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,8 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A63E7F7A29E0D6E800B1E0FF /* BackgroundProviderProtocol.swift in Sources */,
 				A63E7F6729E0D3B700B1E0FF /* ViewController.swift in Sources */,
 				A63E7F6329E0D3B700B1E0FF /* AppDelegate.swift in Sources */,
+				A63E7F7C29E0D71A00B1E0FF /* BackgroundProvidingClass.swift in Sources */,
+				A63E7F7E29E0D76E00B1E0FF /* AnotherVC.swift in Sources */,
 				A63E7F6529E0D3B700B1E0FF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +378,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A63E7F7629E0D5DF00B1E0FF /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A63E7F7729E0D5DF00B1E0FF /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A63E7F7629E0D5DF00B1E0FF /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A63E7F5729E0D3B700B1E0FF /* Project object */;
 }
