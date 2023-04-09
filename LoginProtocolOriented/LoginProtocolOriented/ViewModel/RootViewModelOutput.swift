@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+protocol RootViewModelOutput : AnyObject {
+    func showLogin ()
+    func showMainApp ()
+    
+}

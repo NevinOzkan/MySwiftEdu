@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  LoginProtocolOriented
+//  RetainCycleExplanation
 //
-//  Created by Nevin Özkan on 9.04.2023.
+//  Created by Nevin Özkan on 10.04.2023.
 //
 
 import UIKit
@@ -16,12 +16,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let scene = (scene as? UIWindowScene) else { return }
-        window = UIWindow(windowScene: scene)
-        let loginStorageService : LoginStorageService = LoginStorageServiceImpl()
-        let viewModel = RootViewModel(loginStorageService: loginStorageService)
-        window?.rootViewController = UINavigationController(rootViewController: RootViewController(viewModel: viewModel))
-        window?.makeKeyAndVisible()
+        guard let _ = (scene as? UIWindowScene) else { return }
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
