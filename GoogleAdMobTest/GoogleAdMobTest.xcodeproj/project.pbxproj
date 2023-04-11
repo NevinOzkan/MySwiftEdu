@@ -7,35 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A61AB04229E36B6600DA4CEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61AB04129E36B6600DA4CEF /* AppDelegate.swift */; };
-		A61AB04429E36B6600DA4CEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61AB04329E36B6600DA4CEF /* SceneDelegate.swift */; };
-		A61AB04629E36B6600DA4CEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61AB04529E36B6600DA4CEF /* ViewController.swift */; };
-		A61AB04929E36B6600DA4CEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A61AB04729E36B6600DA4CEF /* Main.storyboard */; };
-		A61AB04B29E36B6700DA4CEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A61AB04A29E36B6700DA4CEF /* Assets.xcassets */; };
-		A61AB04E29E36B6700DA4CEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A61AB04C29E36B6700DA4CEF /* LaunchScreen.storyboard */; };
-		A61AB05629E36D6400DA4CEF /* Instructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61AB05529E36D6400DA4CEF /* Instructor.swift */; };
-		A61AB05829E36E1000DA4CEF /* WeakInstructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61AB05729E36E1000DA4CEF /* WeakInstructor.swift */; };
-		A61AB05A29E36E7900DA4CEF /* WeakSelfExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61AB05929E36E7900DA4CEF /* WeakSelfExample.swift */; };
-		A61AB05C29E36F1500DA4CEF /* WeakSelfExtra.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61AB05B29E36F1500DA4CEF /* WeakSelfExtra.swift */; };
+		A675CB3B29E5EEF70050C174 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A675CB3A29E5EEF70050C174 /* AppDelegate.swift */; };
+		A675CB3D29E5EEF70050C174 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A675CB3C29E5EEF70050C174 /* SceneDelegate.swift */; };
+		A675CB3F29E5EEF70050C174 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A675CB3E29E5EEF70050C174 /* ViewController.swift */; };
+		A675CB4229E5EEF70050C174 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A675CB4029E5EEF70050C174 /* Main.storyboard */; };
+		A675CB4429E5EEF80050C174 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A675CB4329E5EEF80050C174 /* Assets.xcassets */; };
+		A675CB4729E5EEF80050C174 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A675CB4529E5EEF80050C174 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A61AB03E29E36B6600DA4CEF /* RetainCycleExplanation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetainCycleExplanation.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A61AB04129E36B6600DA4CEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A61AB04329E36B6600DA4CEF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A61AB04529E36B6600DA4CEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A61AB04829E36B6600DA4CEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A61AB04A29E36B6700DA4CEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A61AB04D29E36B6700DA4CEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A61AB04F29E36B6700DA4CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A61AB05529E36D6400DA4CEF /* Instructor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instructor.swift; sourceTree = "<group>"; };
-		A61AB05729E36E1000DA4CEF /* WeakInstructor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakInstructor.swift; sourceTree = "<group>"; };
-		A61AB05929E36E7900DA4CEF /* WeakSelfExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfExample.swift; sourceTree = "<group>"; };
-		A61AB05B29E36F1500DA4CEF /* WeakSelfExtra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfExtra.swift; sourceTree = "<group>"; };
+		A675CB3729E5EEF70050C174 /* GoogleAdMobTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleAdMobTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A675CB3A29E5EEF70050C174 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A675CB3C29E5EEF70050C174 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A675CB3E29E5EEF70050C174 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A675CB4129E5EEF70050C174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A675CB4329E5EEF80050C174 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A675CB4629E5EEF80050C174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A675CB4829E5EEF80050C174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A61AB03B29E36B6600DA4CEF /* Frameworks */ = {
+		A675CB3429E5EEF70050C174 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,76 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A61AB03529E36B6600DA4CEF = {
+		A675CB2E29E5EEF70050C174 = {
 			isa = PBXGroup;
 			children = (
-				A61AB04029E36B6600DA4CEF /* RetainCycleExplanation */,
-				A61AB03F29E36B6600DA4CEF /* Products */,
+				A675CB3929E5EEF70050C174 /* GoogleAdMobTest */,
+				A675CB3829E5EEF70050C174 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A61AB03F29E36B6600DA4CEF /* Products */ = {
+		A675CB3829E5EEF70050C174 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A61AB03E29E36B6600DA4CEF /* RetainCycleExplanation.app */,
+				A675CB3729E5EEF70050C174 /* GoogleAdMobTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A61AB04029E36B6600DA4CEF /* RetainCycleExplanation */ = {
+		A675CB3929E5EEF70050C174 /* GoogleAdMobTest */ = {
 			isa = PBXGroup;
 			children = (
-				A61AB04129E36B6600DA4CEF /* AppDelegate.swift */,
-				A61AB04329E36B6600DA4CEF /* SceneDelegate.swift */,
-				A61AB04529E36B6600DA4CEF /* ViewController.swift */,
-				A61AB04729E36B6600DA4CEF /* Main.storyboard */,
-				A61AB04A29E36B6700DA4CEF /* Assets.xcassets */,
-				A61AB04C29E36B6700DA4CEF /* LaunchScreen.storyboard */,
-				A61AB04F29E36B6700DA4CEF /* Info.plist */,
-				A61AB05529E36D6400DA4CEF /* Instructor.swift */,
-				A61AB05729E36E1000DA4CEF /* WeakInstructor.swift */,
-				A61AB05929E36E7900DA4CEF /* WeakSelfExample.swift */,
-				A61AB05B29E36F1500DA4CEF /* WeakSelfExtra.swift */,
+				A675CB3A29E5EEF70050C174 /* AppDelegate.swift */,
+				A675CB3C29E5EEF70050C174 /* SceneDelegate.swift */,
+				A675CB3E29E5EEF70050C174 /* ViewController.swift */,
+				A675CB4029E5EEF70050C174 /* Main.storyboard */,
+				A675CB4329E5EEF80050C174 /* Assets.xcassets */,
+				A675CB4529E5EEF80050C174 /* LaunchScreen.storyboard */,
+				A675CB4829E5EEF80050C174 /* Info.plist */,
 			);
-			path = RetainCycleExplanation;
+			path = GoogleAdMobTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A61AB03D29E36B6600DA4CEF /* RetainCycleExplanation */ = {
+		A675CB3629E5EEF70050C174 /* GoogleAdMobTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A61AB05229E36B6700DA4CEF /* Build configuration list for PBXNativeTarget "RetainCycleExplanation" */;
+			buildConfigurationList = A675CB4B29E5EEF80050C174 /* Build configuration list for PBXNativeTarget "GoogleAdMobTest" */;
 			buildPhases = (
-				A61AB03A29E36B6600DA4CEF /* Sources */,
-				A61AB03B29E36B6600DA4CEF /* Frameworks */,
-				A61AB03C29E36B6600DA4CEF /* Resources */,
+				A675CB3329E5EEF70050C174 /* Sources */,
+				A675CB3429E5EEF70050C174 /* Frameworks */,
+				A675CB3529E5EEF70050C174 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = RetainCycleExplanation;
-			productName = RetainCycleExplanation;
-			productReference = A61AB03E29E36B6600DA4CEF /* RetainCycleExplanation.app */;
+			name = GoogleAdMobTest;
+			productName = GoogleAdMobTest;
+			productReference = A675CB3729E5EEF70050C174 /* GoogleAdMobTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A61AB03629E36B6600DA4CEF /* Project object */ = {
+		A675CB2F29E5EEF70050C174 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					A61AB03D29E36B6600DA4CEF = {
+					A675CB3629E5EEF70050C174 = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
-			buildConfigurationList = A61AB03929E36B6600DA4CEF /* Build configuration list for PBXProject "RetainCycleExplanation" */;
+			buildConfigurationList = A675CB3229E5EEF70050C174 /* Build configuration list for PBXProject "GoogleAdMobTest" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,59 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = A61AB03529E36B6600DA4CEF;
-			productRefGroup = A61AB03F29E36B6600DA4CEF /* Products */;
+			mainGroup = A675CB2E29E5EEF70050C174;
+			productRefGroup = A675CB3829E5EEF70050C174 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A61AB03D29E36B6600DA4CEF /* RetainCycleExplanation */,
+				A675CB3629E5EEF70050C174 /* GoogleAdMobTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A61AB03C29E36B6600DA4CEF /* Resources */ = {
+		A675CB3529E5EEF70050C174 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A61AB04E29E36B6700DA4CEF /* LaunchScreen.storyboard in Resources */,
-				A61AB04B29E36B6700DA4CEF /* Assets.xcassets in Resources */,
-				A61AB04929E36B6600DA4CEF /* Main.storyboard in Resources */,
+				A675CB4729E5EEF80050C174 /* LaunchScreen.storyboard in Resources */,
+				A675CB4429E5EEF80050C174 /* Assets.xcassets in Resources */,
+				A675CB4229E5EEF70050C174 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A61AB03A29E36B6600DA4CEF /* Sources */ = {
+		A675CB3329E5EEF70050C174 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A61AB05A29E36E7900DA4CEF /* WeakSelfExample.swift in Sources */,
-				A61AB05C29E36F1500DA4CEF /* WeakSelfExtra.swift in Sources */,
-				A61AB05629E36D6400DA4CEF /* Instructor.swift in Sources */,
-				A61AB04629E36B6600DA4CEF /* ViewController.swift in Sources */,
-				A61AB04229E36B6600DA4CEF /* AppDelegate.swift in Sources */,
-				A61AB04429E36B6600DA4CEF /* SceneDelegate.swift in Sources */,
-				A61AB05829E36E1000DA4CEF /* WeakInstructor.swift in Sources */,
+				A675CB3F29E5EEF70050C174 /* ViewController.swift in Sources */,
+				A675CB3B29E5EEF70050C174 /* AppDelegate.swift in Sources */,
+				A675CB3D29E5EEF70050C174 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A61AB04729E36B6600DA4CEF /* Main.storyboard */ = {
+		A675CB4029E5EEF70050C174 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A61AB04829E36B6600DA4CEF /* Base */,
+				A675CB4129E5EEF70050C174 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A61AB04C29E36B6700DA4CEF /* LaunchScreen.storyboard */ = {
+		A675CB4529E5EEF80050C174 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A61AB04D29E36B6700DA4CEF /* Base */,
+				A675CB4629E5EEF80050C174 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -182,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A61AB05029E36B6700DA4CEF /* Debug */ = {
+		A675CB4929E5EEF80050C174 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -242,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		A61AB05129E36B6700DA4CEF /* Release */ = {
+		A675CB4A29E5EEF80050C174 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -296,7 +280,7 @@
 			};
 			name = Release;
 		};
-		A61AB05329E36B6700DA4CEF /* Debug */ = {
+		A675CB4C29E5EEF80050C174 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -305,7 +289,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YNH65UJDQA;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RetainCycleExplanation/Info.plist;
+				INFOPLIST_FILE = GoogleAdMobTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -316,7 +300,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.RetainCycleExplanation;
+				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.GoogleAdMobTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -324,7 +308,7 @@
 			};
 			name = Debug;
 		};
-		A61AB05429E36B6700DA4CEF /* Release */ = {
+		A675CB4D29E5EEF80050C174 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -333,7 +317,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YNH65UJDQA;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RetainCycleExplanation/Info.plist;
+				INFOPLIST_FILE = GoogleAdMobTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -344,7 +328,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.RetainCycleExplanation;
+				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.GoogleAdMobTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -355,25 +339,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A61AB03929E36B6600DA4CEF /* Build configuration list for PBXProject "RetainCycleExplanation" */ = {
+		A675CB3229E5EEF70050C174 /* Build configuration list for PBXProject "GoogleAdMobTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A61AB05029E36B6700DA4CEF /* Debug */,
-				A61AB05129E36B6700DA4CEF /* Release */,
+				A675CB4929E5EEF80050C174 /* Debug */,
+				A675CB4A29E5EEF80050C174 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A61AB05229E36B6700DA4CEF /* Build configuration list for PBXNativeTarget "RetainCycleExplanation" */ = {
+		A675CB4B29E5EEF80050C174 /* Build configuration list for PBXNativeTarget "GoogleAdMobTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A61AB05329E36B6700DA4CEF /* Debug */,
-				A61AB05429E36B6700DA4CEF /* Release */,
+				A675CB4C29E5EEF80050C174 /* Debug */,
+				A675CB4D29E5EEF80050C174 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A61AB03629E36B6600DA4CEF /* Project object */;
+	rootObject = A675CB2F29E5EEF70050C174 /* Project object */;
 }
