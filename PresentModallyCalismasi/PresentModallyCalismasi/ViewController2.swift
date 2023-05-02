@@ -16,14 +16,20 @@ class ViewController2: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    @IBAction func tiklanDismiss(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
     }
-    */
-
+    
+    
+    @IBAction func goto3(_ sender: Any) {
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        let gidilecekViewController = storyboard.instantiateViewController(withIdentifier: "sayfa3") as!
+        ViewController3
+        
+        self.present(gidilecekViewController,animated: true, completion: nil)
+        
+    }
 }
