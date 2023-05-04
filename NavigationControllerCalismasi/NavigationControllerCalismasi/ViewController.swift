@@ -11,7 +11,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+       
+        self.navigationItem.title = "Başlık Kod ile"
+        self.navigationItem.prompt = "Açıklama Kod ile"
+        
+        self.navigationItem.largeTitleDisplayMode = .automatic
+        
     }
 
 
