@@ -7,68 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A6E12CB92A041C9A0064F6DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E12CB82A041C9A0064F6DD /* AppDelegate.swift */; };
-		A6E12CBB2A041C9A0064F6DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E12CBA2A041C9A0064F6DD /* SceneDelegate.swift */; };
-		A6E12CBD2A041C9A0064F6DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E12CBC2A041C9A0064F6DD /* ViewController.swift */; };
-		A6E12CC02A041C9A0064F6DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6E12CBE2A041C9A0064F6DD /* Main.storyboard */; };
-		A6E12CC22A041C9C0064F6DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6E12CC12A041C9C0064F6DD /* Assets.xcassets */; };
-		A6E12CC52A041C9C0064F6DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6E12CC32A041C9C0064F6DD /* LaunchScreen.storyboard */; };
-		A6E12CD02A041C9C0064F6DD /* TabBarControllerOzellestirmeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E12CCF2A041C9C0064F6DD /* TabBarControllerOzellestirmeTests.swift */; };
-		A6E12CDA2A041C9C0064F6DD /* TabBarControllerOzellestirmeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E12CD92A041C9C0064F6DD /* TabBarControllerOzellestirmeUITests.swift */; };
-		A6E12CDC2A041C9C0064F6DD /* TabBarControllerOzellestirmeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E12CDB2A041C9C0064F6DD /* TabBarControllerOzellestirmeUITestsLaunchTests.swift */; };
-		A6E12CE92A041D110064F6DD /* AyarlarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E12CE82A041D110064F6DD /* AyarlarVC.swift */; };
+		A6DBFDD42A042331004DD9D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DBFDD32A042331004DD9D4 /* AppDelegate.swift */; };
+		A6DBFDD62A042331004DD9D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DBFDD52A042331004DD9D4 /* SceneDelegate.swift */; };
+		A6DBFDD82A042331004DD9D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DBFDD72A042331004DD9D4 /* ViewController.swift */; };
+		A6DBFDDB2A042331004DD9D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6DBFDD92A042331004DD9D4 /* Main.storyboard */; };
+		A6DBFDDD2A042332004DD9D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6DBFDDC2A042332004DD9D4 /* Assets.xcassets */; };
+		A6DBFDE02A042332004DD9D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6DBFDDE2A042332004DD9D4 /* LaunchScreen.storyboard */; };
+		A6DBFDEB2A042332004DD9D4 /* ToolbarCalismasiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DBFDEA2A042332004DD9D4 /* ToolbarCalismasiTests.swift */; };
+		A6DBFDF52A042332004DD9D4 /* ToolbarCalismasiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DBFDF42A042332004DD9D4 /* ToolbarCalismasiUITests.swift */; };
+		A6DBFDF72A042332004DD9D4 /* ToolbarCalismasiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DBFDF62A042332004DD9D4 /* ToolbarCalismasiUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A6E12CCC2A041C9C0064F6DD /* PBXContainerItemProxy */ = {
+		A6DBFDE72A042332004DD9D4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A6E12CAD2A041C9A0064F6DD /* Project object */;
+			containerPortal = A6DBFDC82A042331004DD9D4 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A6E12CB42A041C9A0064F6DD;
-			remoteInfo = TabBarControllerOzellestirme;
+			remoteGlobalIDString = A6DBFDCF2A042331004DD9D4;
+			remoteInfo = ToolbarCalismasi;
 		};
-		A6E12CD62A041C9C0064F6DD /* PBXContainerItemProxy */ = {
+		A6DBFDF12A042332004DD9D4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A6E12CAD2A041C9A0064F6DD /* Project object */;
+			containerPortal = A6DBFDC82A042331004DD9D4 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A6E12CB42A041C9A0064F6DD;
-			remoteInfo = TabBarControllerOzellestirme;
+			remoteGlobalIDString = A6DBFDCF2A042331004DD9D4;
+			remoteInfo = ToolbarCalismasi;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A6E12CB52A041C9A0064F6DD /* TabBarControllerOzellestirme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarControllerOzellestirme.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6E12CB82A041C9A0064F6DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A6E12CBA2A041C9A0064F6DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A6E12CBC2A041C9A0064F6DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A6E12CBF2A041C9A0064F6DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A6E12CC12A041C9C0064F6DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A6E12CC42A041C9C0064F6DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A6E12CC62A041C9C0064F6DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A6E12CCB2A041C9C0064F6DD /* TabBarControllerOzellestirmeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarControllerOzellestirmeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6E12CCF2A041C9C0064F6DD /* TabBarControllerOzellestirmeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarControllerOzellestirmeTests.swift; sourceTree = "<group>"; };
-		A6E12CD52A041C9C0064F6DD /* TabBarControllerOzellestirmeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarControllerOzellestirmeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6E12CD92A041C9C0064F6DD /* TabBarControllerOzellestirmeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarControllerOzellestirmeUITests.swift; sourceTree = "<group>"; };
-		A6E12CDB2A041C9C0064F6DD /* TabBarControllerOzellestirmeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarControllerOzellestirmeUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		A6E12CE82A041D110064F6DD /* AyarlarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AyarlarVC.swift; sourceTree = "<group>"; };
+		A6DBFDD02A042331004DD9D4 /* ToolbarCalismasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToolbarCalismasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6DBFDD32A042331004DD9D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6DBFDD52A042331004DD9D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A6DBFDD72A042331004DD9D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A6DBFDDA2A042331004DD9D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6DBFDDC2A042332004DD9D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6DBFDDF2A042332004DD9D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6DBFDE12A042332004DD9D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6DBFDE62A042332004DD9D4 /* ToolbarCalismasiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToolbarCalismasiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6DBFDEA2A042332004DD9D4 /* ToolbarCalismasiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarCalismasiTests.swift; sourceTree = "<group>"; };
+		A6DBFDF02A042332004DD9D4 /* ToolbarCalismasiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToolbarCalismasiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6DBFDF42A042332004DD9D4 /* ToolbarCalismasiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarCalismasiUITests.swift; sourceTree = "<group>"; };
+		A6DBFDF62A042332004DD9D4 /* ToolbarCalismasiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarCalismasiUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A6E12CB22A041C9A0064F6DD /* Frameworks */ = {
+		A6DBFDCD2A042331004DD9D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6E12CC82A041C9C0064F6DD /* Frameworks */ = {
+		A6DBFDE32A042332004DD9D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6E12CD22A041C9C0064F6DD /* Frameworks */ = {
+		A6DBFDED2A042332004DD9D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,138 +76,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A6E12CAC2A041C9A0064F6DD = {
+		A6DBFDC72A042331004DD9D4 = {
 			isa = PBXGroup;
 			children = (
-				A6E12CB72A041C9A0064F6DD /* TabBarControllerOzellestirme */,
-				A6E12CCE2A041C9C0064F6DD /* TabBarControllerOzellestirmeTests */,
-				A6E12CD82A041C9C0064F6DD /* TabBarControllerOzellestirmeUITests */,
-				A6E12CB62A041C9A0064F6DD /* Products */,
+				A6DBFDD22A042331004DD9D4 /* ToolbarCalismasi */,
+				A6DBFDE92A042332004DD9D4 /* ToolbarCalismasiTests */,
+				A6DBFDF32A042332004DD9D4 /* ToolbarCalismasiUITests */,
+				A6DBFDD12A042331004DD9D4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A6E12CB62A041C9A0064F6DD /* Products */ = {
+		A6DBFDD12A042331004DD9D4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A6E12CB52A041C9A0064F6DD /* TabBarControllerOzellestirme.app */,
-				A6E12CCB2A041C9C0064F6DD /* TabBarControllerOzellestirmeTests.xctest */,
-				A6E12CD52A041C9C0064F6DD /* TabBarControllerOzellestirmeUITests.xctest */,
+				A6DBFDD02A042331004DD9D4 /* ToolbarCalismasi.app */,
+				A6DBFDE62A042332004DD9D4 /* ToolbarCalismasiTests.xctest */,
+				A6DBFDF02A042332004DD9D4 /* ToolbarCalismasiUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A6E12CB72A041C9A0064F6DD /* TabBarControllerOzellestirme */ = {
+		A6DBFDD22A042331004DD9D4 /* ToolbarCalismasi */ = {
 			isa = PBXGroup;
 			children = (
-				A6E12CB82A041C9A0064F6DD /* AppDelegate.swift */,
-				A6E12CBA2A041C9A0064F6DD /* SceneDelegate.swift */,
-				A6E12CBC2A041C9A0064F6DD /* ViewController.swift */,
-				A6E12CBE2A041C9A0064F6DD /* Main.storyboard */,
-				A6E12CC12A041C9C0064F6DD /* Assets.xcassets */,
-				A6E12CC32A041C9C0064F6DD /* LaunchScreen.storyboard */,
-				A6E12CC62A041C9C0064F6DD /* Info.plist */,
-				A6E12CE82A041D110064F6DD /* AyarlarVC.swift */,
+				A6DBFDD32A042331004DD9D4 /* AppDelegate.swift */,
+				A6DBFDD52A042331004DD9D4 /* SceneDelegate.swift */,
+				A6DBFDD72A042331004DD9D4 /* ViewController.swift */,
+				A6DBFDD92A042331004DD9D4 /* Main.storyboard */,
+				A6DBFDDC2A042332004DD9D4 /* Assets.xcassets */,
+				A6DBFDDE2A042332004DD9D4 /* LaunchScreen.storyboard */,
+				A6DBFDE12A042332004DD9D4 /* Info.plist */,
 			);
-			path = TabBarControllerOzellestirme;
+			path = ToolbarCalismasi;
 			sourceTree = "<group>";
 		};
-		A6E12CCE2A041C9C0064F6DD /* TabBarControllerOzellestirmeTests */ = {
+		A6DBFDE92A042332004DD9D4 /* ToolbarCalismasiTests */ = {
 			isa = PBXGroup;
 			children = (
-				A6E12CCF2A041C9C0064F6DD /* TabBarControllerOzellestirmeTests.swift */,
+				A6DBFDEA2A042332004DD9D4 /* ToolbarCalismasiTests.swift */,
 			);
-			path = TabBarControllerOzellestirmeTests;
+			path = ToolbarCalismasiTests;
 			sourceTree = "<group>";
 		};
-		A6E12CD82A041C9C0064F6DD /* TabBarControllerOzellestirmeUITests */ = {
+		A6DBFDF32A042332004DD9D4 /* ToolbarCalismasiUITests */ = {
 			isa = PBXGroup;
 			children = (
-				A6E12CD92A041C9C0064F6DD /* TabBarControllerOzellestirmeUITests.swift */,
-				A6E12CDB2A041C9C0064F6DD /* TabBarControllerOzellestirmeUITestsLaunchTests.swift */,
+				A6DBFDF42A042332004DD9D4 /* ToolbarCalismasiUITests.swift */,
+				A6DBFDF62A042332004DD9D4 /* ToolbarCalismasiUITestsLaunchTests.swift */,
 			);
-			path = TabBarControllerOzellestirmeUITests;
+			path = ToolbarCalismasiUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A6E12CB42A041C9A0064F6DD /* TabBarControllerOzellestirme */ = {
+		A6DBFDCF2A042331004DD9D4 /* ToolbarCalismasi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6E12CDF2A041C9C0064F6DD /* Build configuration list for PBXNativeTarget "TabBarControllerOzellestirme" */;
+			buildConfigurationList = A6DBFDFA2A042332004DD9D4 /* Build configuration list for PBXNativeTarget "ToolbarCalismasi" */;
 			buildPhases = (
-				A6E12CB12A041C9A0064F6DD /* Sources */,
-				A6E12CB22A041C9A0064F6DD /* Frameworks */,
-				A6E12CB32A041C9A0064F6DD /* Resources */,
+				A6DBFDCC2A042331004DD9D4 /* Sources */,
+				A6DBFDCD2A042331004DD9D4 /* Frameworks */,
+				A6DBFDCE2A042331004DD9D4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TabBarControllerOzellestirme;
-			productName = TabBarControllerOzellestirme;
-			productReference = A6E12CB52A041C9A0064F6DD /* TabBarControllerOzellestirme.app */;
+			name = ToolbarCalismasi;
+			productName = ToolbarCalismasi;
+			productReference = A6DBFDD02A042331004DD9D4 /* ToolbarCalismasi.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A6E12CCA2A041C9C0064F6DD /* TabBarControllerOzellestirmeTests */ = {
+		A6DBFDE52A042332004DD9D4 /* ToolbarCalismasiTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6E12CE22A041C9C0064F6DD /* Build configuration list for PBXNativeTarget "TabBarControllerOzellestirmeTests" */;
+			buildConfigurationList = A6DBFDFD2A042332004DD9D4 /* Build configuration list for PBXNativeTarget "ToolbarCalismasiTests" */;
 			buildPhases = (
-				A6E12CC72A041C9C0064F6DD /* Sources */,
-				A6E12CC82A041C9C0064F6DD /* Frameworks */,
-				A6E12CC92A041C9C0064F6DD /* Resources */,
+				A6DBFDE22A042332004DD9D4 /* Sources */,
+				A6DBFDE32A042332004DD9D4 /* Frameworks */,
+				A6DBFDE42A042332004DD9D4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A6E12CCD2A041C9C0064F6DD /* PBXTargetDependency */,
+				A6DBFDE82A042332004DD9D4 /* PBXTargetDependency */,
 			);
-			name = TabBarControllerOzellestirmeTests;
-			productName = TabBarControllerOzellestirmeTests;
-			productReference = A6E12CCB2A041C9C0064F6DD /* TabBarControllerOzellestirmeTests.xctest */;
+			name = ToolbarCalismasiTests;
+			productName = ToolbarCalismasiTests;
+			productReference = A6DBFDE62A042332004DD9D4 /* ToolbarCalismasiTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A6E12CD42A041C9C0064F6DD /* TabBarControllerOzellestirmeUITests */ = {
+		A6DBFDEF2A042332004DD9D4 /* ToolbarCalismasiUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6E12CE52A041C9C0064F6DD /* Build configuration list for PBXNativeTarget "TabBarControllerOzellestirmeUITests" */;
+			buildConfigurationList = A6DBFE002A042332004DD9D4 /* Build configuration list for PBXNativeTarget "ToolbarCalismasiUITests" */;
 			buildPhases = (
-				A6E12CD12A041C9C0064F6DD /* Sources */,
-				A6E12CD22A041C9C0064F6DD /* Frameworks */,
-				A6E12CD32A041C9C0064F6DD /* Resources */,
+				A6DBFDEC2A042332004DD9D4 /* Sources */,
+				A6DBFDED2A042332004DD9D4 /* Frameworks */,
+				A6DBFDEE2A042332004DD9D4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A6E12CD72A041C9C0064F6DD /* PBXTargetDependency */,
+				A6DBFDF22A042332004DD9D4 /* PBXTargetDependency */,
 			);
-			name = TabBarControllerOzellestirmeUITests;
-			productName = TabBarControllerOzellestirmeUITests;
-			productReference = A6E12CD52A041C9C0064F6DD /* TabBarControllerOzellestirmeUITests.xctest */;
+			name = ToolbarCalismasiUITests;
+			productName = ToolbarCalismasiUITests;
+			productReference = A6DBFDF02A042332004DD9D4 /* ToolbarCalismasiUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A6E12CAD2A041C9A0064F6DD /* Project object */ = {
+		A6DBFDC82A042331004DD9D4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					A6E12CB42A041C9A0064F6DD = {
+					A6DBFDCF2A042331004DD9D4 = {
 						CreatedOnToolsVersion = 14.3;
 					};
-					A6E12CCA2A041C9C0064F6DD = {
+					A6DBFDE52A042332004DD9D4 = {
 						CreatedOnToolsVersion = 14.3;
-						TestTargetID = A6E12CB42A041C9A0064F6DD;
+						TestTargetID = A6DBFDCF2A042331004DD9D4;
 					};
-					A6E12CD42A041C9C0064F6DD = {
+					A6DBFDEF2A042332004DD9D4 = {
 						CreatedOnToolsVersion = 14.3;
-						TestTargetID = A6E12CB42A041C9A0064F6DD;
+						TestTargetID = A6DBFDCF2A042331004DD9D4;
 					};
 				};
 			};
-			buildConfigurationList = A6E12CB02A041C9A0064F6DD /* Build configuration list for PBXProject "TabBarControllerOzellestirme" */;
+			buildConfigurationList = A6DBFDCB2A042331004DD9D4 /* Build configuration list for PBXProject "ToolbarCalismasi" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,37 +214,37 @@
 				en,
 				Base,
 			);
-			mainGroup = A6E12CAC2A041C9A0064F6DD;
-			productRefGroup = A6E12CB62A041C9A0064F6DD /* Products */;
+			mainGroup = A6DBFDC72A042331004DD9D4;
+			productRefGroup = A6DBFDD12A042331004DD9D4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A6E12CB42A041C9A0064F6DD /* TabBarControllerOzellestirme */,
-				A6E12CCA2A041C9C0064F6DD /* TabBarControllerOzellestirmeTests */,
-				A6E12CD42A041C9C0064F6DD /* TabBarControllerOzellestirmeUITests */,
+				A6DBFDCF2A042331004DD9D4 /* ToolbarCalismasi */,
+				A6DBFDE52A042332004DD9D4 /* ToolbarCalismasiTests */,
+				A6DBFDEF2A042332004DD9D4 /* ToolbarCalismasiUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A6E12CB32A041C9A0064F6DD /* Resources */ = {
+		A6DBFDCE2A042331004DD9D4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6E12CC52A041C9C0064F6DD /* LaunchScreen.storyboard in Resources */,
-				A6E12CC22A041C9C0064F6DD /* Assets.xcassets in Resources */,
-				A6E12CC02A041C9A0064F6DD /* Main.storyboard in Resources */,
+				A6DBFDE02A042332004DD9D4 /* LaunchScreen.storyboard in Resources */,
+				A6DBFDDD2A042332004DD9D4 /* Assets.xcassets in Resources */,
+				A6DBFDDB2A042331004DD9D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6E12CC92A041C9C0064F6DD /* Resources */ = {
+		A6DBFDE42A042332004DD9D4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6E12CD32A041C9C0064F6DD /* Resources */ = {
+		A6DBFDEE2A042332004DD9D4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -257,62 +254,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A6E12CB12A041C9A0064F6DD /* Sources */ = {
+		A6DBFDCC2A042331004DD9D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6E12CBD2A041C9A0064F6DD /* ViewController.swift in Sources */,
-				A6E12CB92A041C9A0064F6DD /* AppDelegate.swift in Sources */,
-				A6E12CBB2A041C9A0064F6DD /* SceneDelegate.swift in Sources */,
-				A6E12CE92A041D110064F6DD /* AyarlarVC.swift in Sources */,
+				A6DBFDD82A042331004DD9D4 /* ViewController.swift in Sources */,
+				A6DBFDD42A042331004DD9D4 /* AppDelegate.swift in Sources */,
+				A6DBFDD62A042331004DD9D4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6E12CC72A041C9C0064F6DD /* Sources */ = {
+		A6DBFDE22A042332004DD9D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6E12CD02A041C9C0064F6DD /* TabBarControllerOzellestirmeTests.swift in Sources */,
+				A6DBFDEB2A042332004DD9D4 /* ToolbarCalismasiTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6E12CD12A041C9C0064F6DD /* Sources */ = {
+		A6DBFDEC2A042332004DD9D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6E12CDA2A041C9C0064F6DD /* TabBarControllerOzellestirmeUITests.swift in Sources */,
-				A6E12CDC2A041C9C0064F6DD /* TabBarControllerOzellestirmeUITestsLaunchTests.swift in Sources */,
+				A6DBFDF52A042332004DD9D4 /* ToolbarCalismasiUITests.swift in Sources */,
+				A6DBFDF72A042332004DD9D4 /* ToolbarCalismasiUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A6E12CCD2A041C9C0064F6DD /* PBXTargetDependency */ = {
+		A6DBFDE82A042332004DD9D4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A6E12CB42A041C9A0064F6DD /* TabBarControllerOzellestirme */;
-			targetProxy = A6E12CCC2A041C9C0064F6DD /* PBXContainerItemProxy */;
+			target = A6DBFDCF2A042331004DD9D4 /* ToolbarCalismasi */;
+			targetProxy = A6DBFDE72A042332004DD9D4 /* PBXContainerItemProxy */;
 		};
-		A6E12CD72A041C9C0064F6DD /* PBXTargetDependency */ = {
+		A6DBFDF22A042332004DD9D4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A6E12CB42A041C9A0064F6DD /* TabBarControllerOzellestirme */;
-			targetProxy = A6E12CD62A041C9C0064F6DD /* PBXContainerItemProxy */;
+			target = A6DBFDCF2A042331004DD9D4 /* ToolbarCalismasi */;
+			targetProxy = A6DBFDF12A042332004DD9D4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A6E12CBE2A041C9A0064F6DD /* Main.storyboard */ = {
+		A6DBFDD92A042331004DD9D4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A6E12CBF2A041C9A0064F6DD /* Base */,
+				A6DBFDDA2A042331004DD9D4 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A6E12CC32A041C9C0064F6DD /* LaunchScreen.storyboard */ = {
+		A6DBFDDE2A042332004DD9D4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A6E12CC42A041C9C0064F6DD /* Base */,
+				A6DBFDDF2A042332004DD9D4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -320,7 +316,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A6E12CDD2A041C9C0064F6DD /* Debug */ = {
+		A6DBFDF82A042332004DD9D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -380,7 +376,7 @@
 			};
 			name = Debug;
 		};
-		A6E12CDE2A041C9C0064F6DD /* Release */ = {
+		A6DBFDF92A042332004DD9D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -434,7 +430,7 @@
 			};
 			name = Release;
 		};
-		A6E12CE02A041C9C0064F6DD /* Debug */ = {
+		A6DBFDFB2A042332004DD9D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -443,7 +439,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YNH65UJDQA;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TabBarControllerOzellestirme/Info.plist;
+				INFOPLIST_FILE = ToolbarCalismasi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -454,7 +450,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.TabBarControllerOzellestirme;
+				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.ToolbarCalismasi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -462,7 +458,7 @@
 			};
 			name = Debug;
 		};
-		A6E12CE12A041C9C0064F6DD /* Release */ = {
+		A6DBFDFC2A042332004DD9D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -471,7 +467,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YNH65UJDQA;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TabBarControllerOzellestirme/Info.plist;
+				INFOPLIST_FILE = ToolbarCalismasi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -482,7 +478,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.TabBarControllerOzellestirme;
+				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.ToolbarCalismasi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -490,7 +486,7 @@
 			};
 			name = Release;
 		};
-		A6E12CE32A041C9C0064F6DD /* Debug */ = {
+		A6DBFDFE2A042332004DD9D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -501,16 +497,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.TabBarControllerOzellestirmeTests;
+				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.ToolbarCalismasiTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabBarControllerOzellestirme.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TabBarControllerOzellestirme";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToolbarCalismasi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ToolbarCalismasi";
 			};
 			name = Debug;
 		};
-		A6E12CE42A041C9C0064F6DD /* Release */ = {
+		A6DBFDFF2A042332004DD9D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -521,16 +517,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.TabBarControllerOzellestirmeTests;
+				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.ToolbarCalismasiTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabBarControllerOzellestirme.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TabBarControllerOzellestirme";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToolbarCalismasi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ToolbarCalismasi";
 			};
 			name = Release;
 		};
-		A6E12CE62A041C9C0064F6DD /* Debug */ = {
+		A6DBFE012A042332004DD9D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -539,16 +535,16 @@
 				DEVELOPMENT_TEAM = YNH65UJDQA;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.TabBarControllerOzellestirmeUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.ToolbarCalismasiUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TabBarControllerOzellestirme;
+				TEST_TARGET_NAME = ToolbarCalismasi;
 			};
 			name = Debug;
 		};
-		A6E12CE72A041C9C0064F6DD /* Release */ = {
+		A6DBFE022A042332004DD9D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -557,55 +553,55 @@
 				DEVELOPMENT_TEAM = YNH65UJDQA;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.TabBarControllerOzellestirmeUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.ToolbarCalismasiUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TabBarControllerOzellestirme;
+				TEST_TARGET_NAME = ToolbarCalismasi;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A6E12CB02A041C9A0064F6DD /* Build configuration list for PBXProject "TabBarControllerOzellestirme" */ = {
+		A6DBFDCB2A042331004DD9D4 /* Build configuration list for PBXProject "ToolbarCalismasi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6E12CDD2A041C9C0064F6DD /* Debug */,
-				A6E12CDE2A041C9C0064F6DD /* Release */,
+				A6DBFDF82A042332004DD9D4 /* Debug */,
+				A6DBFDF92A042332004DD9D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6E12CDF2A041C9C0064F6DD /* Build configuration list for PBXNativeTarget "TabBarControllerOzellestirme" */ = {
+		A6DBFDFA2A042332004DD9D4 /* Build configuration list for PBXNativeTarget "ToolbarCalismasi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6E12CE02A041C9C0064F6DD /* Debug */,
-				A6E12CE12A041C9C0064F6DD /* Release */,
+				A6DBFDFB2A042332004DD9D4 /* Debug */,
+				A6DBFDFC2A042332004DD9D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6E12CE22A041C9C0064F6DD /* Build configuration list for PBXNativeTarget "TabBarControllerOzellestirmeTests" */ = {
+		A6DBFDFD2A042332004DD9D4 /* Build configuration list for PBXNativeTarget "ToolbarCalismasiTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6E12CE32A041C9C0064F6DD /* Debug */,
-				A6E12CE42A041C9C0064F6DD /* Release */,
+				A6DBFDFE2A042332004DD9D4 /* Debug */,
+				A6DBFDFF2A042332004DD9D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6E12CE52A041C9C0064F6DD /* Build configuration list for PBXNativeTarget "TabBarControllerOzellestirmeUITests" */ = {
+		A6DBFE002A042332004DD9D4 /* Build configuration list for PBXNativeTarget "ToolbarCalismasiUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6E12CE62A041C9C0064F6DD /* Debug */,
-				A6E12CE72A041C9C0064F6DD /* Release */,
+				A6DBFE012A042332004DD9D4 /* Debug */,
+				A6DBFE022A042332004DD9D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A6E12CAD2A041C9A0064F6DD /* Project object */;
+	rootObject = A6DBFDC82A042331004DD9D4 /* Project object */;
 }
