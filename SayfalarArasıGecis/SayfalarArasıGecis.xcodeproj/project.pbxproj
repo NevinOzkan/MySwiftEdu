@@ -13,6 +13,8 @@
 		A683DA172A02D0DE00F68E0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A683DA152A02D0DE00F68E0E /* Main.storyboard */; };
 		A683DA192A02D0DF00F68E0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A683DA182A02D0DF00F68E0E /* Assets.xcassets */; };
 		A683DA1C2A02D0DF00F68E0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A683DA1A2A02D0DF00F68E0E /* LaunchScreen.storyboard */; };
+		A683DA242A02D13700F68E0E /* ViewControllerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = A683DA232A02D13700F68E0E /* ViewControllerB.swift */; };
+		A683DA262A02D65D00F68E0E /* Kisiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A683DA252A02D65D00F68E0E /* Kisiler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A683DA182A02D0DF00F68E0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A683DA1B2A02D0DF00F68E0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A683DA1D2A02D0DF00F68E0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A683DA232A02D13700F68E0E /* ViewControllerB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerB.swift; sourceTree = "<group>"; };
+		A683DA252A02D65D00F68E0E /* Kisiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisiler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				A683DA182A02D0DF00F68E0E /* Assets.xcassets */,
 				A683DA1A2A02D0DF00F68E0E /* LaunchScreen.storyboard */,
 				A683DA1D2A02D0DF00F68E0E /* Info.plist */,
+				A683DA232A02D13700F68E0E /* ViewControllerB.swift */,
+				A683DA252A02D65D00F68E0E /* Kisiler.swift */,
 			);
 			path = "SayfalarArasıGecis";
 			sourceTree = "<group>";
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A683DA142A02D0DE00F68E0E /* ViewController.swift in Sources */,
+				A683DA242A02D13700F68E0E /* ViewControllerB.swift in Sources */,
 				A683DA102A02D0DE00F68E0E /* AppDelegate.swift in Sources */,
 				A683DA122A02D0DE00F68E0E /* SceneDelegate.swift in Sources */,
+				A683DA262A02D65D00F68E0E /* Kisiler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
