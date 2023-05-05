@@ -8,22 +8,36 @@
 import UIKit
 
 class SonucEkraniVC: UIViewController {
-
+    @IBOutlet weak var imageViewSonuc: UIImageView!
+    @IBOutlet weak var labelSonuc: UILabel!
+    
+    
+    var sonuc:Bool?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
+        
+        self.navigationItem.hidesBackButton = true
+        
+        self.navigationItem.title = "Sonuç Ekrani"
+        
+        print (sonuc!)
+        
+        if sonuc! {
+            labelSonuc.text = "Kazandınız"
+            imageViewSonuc.image = UIImage(named: "mutlu_resim")
+            
+        }else{
+            labelSonuc.text = "Kaybettiniz"
+            imageViewSonuc.image = UIImage(named: "uzgun_resim")
+            
+        }
+        
+        
+        }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    @IBAction func tekrarOyna(_ sender: Any) {
+        navigationController?.popToRootViewController(animated: true)
     }
-    */
-
 }

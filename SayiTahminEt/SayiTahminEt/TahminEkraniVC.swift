@@ -8,22 +8,65 @@
 import UIKit
 
 class TahminEkraniVC: UIViewController {
-
+    
+    @IBOutlet weak var labelKalanHak: UILabel!
+    @IBOutlet weak var labelYardim: UILabel!
+    @IBOutlet weak var textfieldGirdi: UITextField!
+    
+    var rasgeleSayi: Int?
+    var kalanHak = 5
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        rasgeleSayi = Int.random(in: 0...100)//0 - 100
+        print("Rasgele Sayi: \(rasgeleSayi!)")
+        }
+    
+    override func prepare (for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if let gelenVeri = sender as? Bool {
+            
+            let gidilecekVC = segue.destination as! SonucEkraniVC
+            
+            gidilecekVC.sonuc = gelenVeri
+        }
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func tahminet(_ sender: Any) {
+        labelYardim.isHidden = false
+        kalanHak-=1
+        
+        if let veri = textfieldGirdi.text {
+            
+            if let tahmin = Int(veri) {
+                if kalanHak != 0 {
+                    
+                    if tahmin == rasgeleSayi {
+                        let sonuc = true
+                        performSegue(withIdentifier: "tahminTosonuc", sender:sonuc)
+                        
+                    }
+                    
+                    if tahmin > rasgeleSayi! {
+                        labelYardim.text = "Azalt"
+                        labelKalanHak.text = "Kalan Hak : \(kalanHak)"
+                    }
+                    
+                    if tahmin < rasgeleSayi! {
+                        labelYardim.text = "Arttir"
+                        labelKalanHak.text = "Kalan Hak : \(kalanHak)"
+                    }
+                    
+                }else{
+                let sonuc = false
+                performSegue(withIdentifier: "tahminTosonuc", sender:sonuc)
+                }
+                
+                textfieldGirdi.text = ""
+            }
+            
+        }
+        
     }
-    */
-
 }
