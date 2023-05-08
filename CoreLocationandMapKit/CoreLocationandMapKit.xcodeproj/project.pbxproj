@@ -16,6 +16,8 @@
 		A60403572A091D1500CCA3B0 /* CoreLocationandMapKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60403562A091D1500CCA3B0 /* CoreLocationandMapKitTests.swift */; };
 		A60403612A091D1500CCA3B0 /* CoreLocationandMapKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60403602A091D1500CCA3B0 /* CoreLocationandMapKitUITests.swift */; };
 		A60403632A091D1500CCA3B0 /* CoreLocationandMapKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60403622A091D1500CCA3B0 /* CoreLocationandMapKitUITestsLaunchTests.swift */; };
+		A60403712A091D3F00CCA3B0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A60403702A091D3F00CCA3B0 /* CoreLocation.framework */; };
+		A60403732A091D4700CCA3B0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A60403722A091D4700CCA3B0 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		A604035C2A091D1500CCA3B0 /* CoreLocationandMapKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreLocationandMapKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A60403602A091D1500CCA3B0 /* CoreLocationandMapKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreLocationandMapKitUITests.swift; sourceTree = "<group>"; };
 		A60403622A091D1500CCA3B0 /* CoreLocationandMapKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreLocationandMapKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A60403702A091D3F00CCA3B0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A60403722A091D4700CCA3B0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A60403732A091D4700CCA3B0 /* MapKit.framework in Frameworks */,
+				A60403712A091D3F00CCA3B0 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +89,7 @@
 				A60403552A091D1500CCA3B0 /* CoreLocationandMapKitTests */,
 				A604035F2A091D1500CCA3B0 /* CoreLocationandMapKitUITests */,
 				A604033D2A091D1400CCA3B0 /* Products */,
+				A604036F2A091D3F00CCA3B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +132,15 @@
 				A60403622A091D1500CCA3B0 /* CoreLocationandMapKitUITestsLaunchTests.swift */,
 			);
 			path = CoreLocationandMapKitUITests;
+			sourceTree = "<group>";
+		};
+		A604036F2A091D3F00CCA3B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A60403722A091D4700CCA3B0 /* MapKit.framework */,
+				A60403702A091D3F00CCA3B0 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -1,24 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Map view configurations" minToolsVersion="14.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CoreLocationandMapKit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="712-Qj-UdI">
+                                <rect key="frame" x="16" y="74" width="361" height="360"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="ZMr-bg-SxM"/>
+                                    <constraint firstAttribute="height" constant="360" id="h4F-Zd-51n"/>
+                                </constraints>
+                                <standardMapConfiguration key="preferredConfiguration"/>
+                            </mapView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mjt-1T-5o0">
+                                <rect key="frame" x="175.66666666666666" y="500" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5lC-5N-pOv">
+                                <rect key="frame" x="175.66666666666666" y="589" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Knm-zD-Z0G">
+                                <rect key="frame" x="175.66666666666666" y="684" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Mjt-1T-5o0" firstAttribute="top" secondItem="712-Qj-UdI" secondAttribute="bottom" constant="66" id="68I-Jq-2Rm"/>
+                            <constraint firstItem="Mjt-1T-5o0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="83g-1w-dBN"/>
+                            <constraint firstItem="Knm-zD-Z0G" firstAttribute="top" secondItem="5lC-5N-pOv" secondAttribute="bottom" constant="74" id="L1F-b9-egv"/>
+                            <constraint firstItem="5lC-5N-pOv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PpP-Fp-28k"/>
+                            <constraint firstItem="712-Qj-UdI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jeT-nr-rIT"/>
+                            <constraint firstItem="712-Qj-UdI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="lWr-Kb-XGc"/>
+                            <constraint firstItem="5lC-5N-pOv" firstAttribute="top" secondItem="Mjt-1T-5o0" secondAttribute="bottom" constant="68" id="loY-l9-KhW"/>
+                            <constraint firstItem="Knm-zD-Z0G" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qc0-P3-3gl"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="boylamLabel" destination="5lC-5N-pOv" id="pRE-O2-flQ"/>
+                        <outlet property="enlemLabel" destination="Mjt-1T-5o0" id="heQ-WC-Up2"/>
+                        <outlet property="hizLabel" destination="Knm-zD-Z0G" id="gTz-CE-rZR"/>
+                        <outlet property="mapView" destination="712-Qj-UdI" id="ihl-lq-zgV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="75.572519083969468" y="3.5211267605633805"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
