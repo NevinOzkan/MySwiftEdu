@@ -14,16 +14,14 @@ class ViewController2: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func gonder(_ sender: Any) {
+        
+        let kisi = Kisiler(kisi_ad: "Ahmet", kisi_yas: 18)
+        
+        NotificationCenter.default.post (name: .bildirimAdi, object: nil, userInfo: ["mesaj":"merhaba", "tarih" :Date (), "nesne" :kisi])
+        
+        dismiss(animated: true, completion: nil)
+        
     }
-    */
-
 }

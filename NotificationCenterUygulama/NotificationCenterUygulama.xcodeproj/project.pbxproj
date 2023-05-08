@@ -16,6 +16,8 @@
 		A6DDC89E2A06CF4700C7B735 /* NotificationCenterUygulamaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DDC89D2A06CF4700C7B735 /* NotificationCenterUygulamaTests.swift */; };
 		A6DDC8A82A06CF4700C7B735 /* NotificationCenterUygulamaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DDC8A72A06CF4700C7B735 /* NotificationCenterUygulamaUITests.swift */; };
 		A6DDC8AA2A06CF4700C7B735 /* NotificationCenterUygulamaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DDC8A92A06CF4700C7B735 /* NotificationCenterUygulamaUITestsLaunchTests.swift */; };
+		A6DDC8B72A06CF8400C7B735 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DDC8B62A06CF8400C7B735 /* ViewController2.swift */; };
+		A6DDC8B92A06D06600C7B735 /* Kisiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DDC8B82A06D06600C7B735 /* Kisiler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		A6DDC8A32A06CF4700C7B735 /* NotificationCenterUygulamaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotificationCenterUygulamaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6DDC8A72A06CF4700C7B735 /* NotificationCenterUygulamaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterUygulamaUITests.swift; sourceTree = "<group>"; };
 		A6DDC8A92A06CF4700C7B735 /* NotificationCenterUygulamaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterUygulamaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A6DDC8B62A06CF8400C7B735 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		A6DDC8B82A06D06600C7B735 /* Kisiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisiler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				A6DDC88F2A06CF4700C7B735 /* Assets.xcassets */,
 				A6DDC8912A06CF4700C7B735 /* LaunchScreen.storyboard */,
 				A6DDC8942A06CF4700C7B735 /* Info.plist */,
+				A6DDC8B62A06CF8400C7B735 /* ViewController2.swift */,
+				A6DDC8B82A06D06600C7B735 /* Kisiler.swift */,
 			);
 			path = NotificationCenterUygulama;
 			sourceTree = "<group>";
@@ -259,8 +265,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6DDC88B2A06CF4600C7B735 /* ViewController.swift in Sources */,
+				A6DDC8B72A06CF8400C7B735 /* ViewController2.swift in Sources */,
 				A6DDC8872A06CF4600C7B735 /* AppDelegate.swift in Sources */,
 				A6DDC8892A06CF4600C7B735 /* SceneDelegate.swift in Sources */,
+				A6DDC8B92A06D06600C7B735 /* Kisiler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
