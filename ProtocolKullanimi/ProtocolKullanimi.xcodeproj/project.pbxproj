@@ -7,69 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A6D4E7F12A09202A00E72E8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D4E7F02A09202A00E72E8F /* AppDelegate.swift */; };
-		A6D4E7F32A09202A00E72E8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D4E7F22A09202A00E72E8F /* SceneDelegate.swift */; };
-		A6D4E7F52A09202A00E72E8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D4E7F42A09202A00E72E8F /* ViewController.swift */; };
-		A6D4E7F82A09202A00E72E8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6D4E7F62A09202A00E72E8F /* Main.storyboard */; };
-		A6D4E7FA2A09202B00E72E8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6D4E7F92A09202B00E72E8F /* Assets.xcassets */; };
-		A6D4E7FD2A09202B00E72E8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6D4E7FB2A09202B00E72E8F /* LaunchScreen.storyboard */; };
-		A6D4E8082A09202B00E72E8F /* MapKitAramaI_slemiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D4E8072A09202B00E72E8F /* MapKitAramaI_slemiTests.swift */; };
-		A6D4E8122A09202B00E72E8F /* MapKitAramaI_slemiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D4E8112A09202B00E72E8F /* MapKitAramaI_slemiUITests.swift */; };
-		A6D4E8142A09202B00E72E8F /* MapKitAramaI_slemiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D4E8132A09202B00E72E8F /* MapKitAramaI_slemiUITestsLaunchTests.swift */; };
-		A6D4E8222A09204300E72E8F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D4E8212A09204300E72E8F /* MapKit.framework */; };
+		A6408A4D2A09617400D096EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6408A4C2A09617400D096EF /* AppDelegate.swift */; };
+		A6408A4F2A09617400D096EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6408A4E2A09617400D096EF /* SceneDelegate.swift */; };
+		A6408A512A09617400D096EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6408A502A09617400D096EF /* ViewController.swift */; };
+		A6408A542A09617400D096EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6408A522A09617400D096EF /* Main.storyboard */; };
+		A6408A562A09617500D096EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6408A552A09617500D096EF /* Assets.xcassets */; };
+		A6408A592A09617500D096EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6408A572A09617500D096EF /* LaunchScreen.storyboard */; };
+		A6408A642A09617500D096EF /* ProtocolKullanimiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6408A632A09617500D096EF /* ProtocolKullanimiTests.swift */; };
+		A6408A6E2A09617500D096EF /* ProtocolKullanimiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6408A6D2A09617500D096EF /* ProtocolKullanimiUITests.swift */; };
+		A6408A702A09617500D096EF /* ProtocolKullanimiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6408A6F2A09617500D096EF /* ProtocolKullanimiUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A6D4E8042A09202B00E72E8F /* PBXContainerItemProxy */ = {
+		A6408A602A09617500D096EF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A6D4E7E52A09202A00E72E8F /* Project object */;
+			containerPortal = A6408A412A09617400D096EF /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A6D4E7EC2A09202A00E72E8F;
-			remoteInfo = "MapKitAramaİslemi";
+			remoteGlobalIDString = A6408A482A09617400D096EF;
+			remoteInfo = ProtocolKullanimi;
 		};
-		A6D4E80E2A09202B00E72E8F /* PBXContainerItemProxy */ = {
+		A6408A6A2A09617500D096EF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A6D4E7E52A09202A00E72E8F /* Project object */;
+			containerPortal = A6408A412A09617400D096EF /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A6D4E7EC2A09202A00E72E8F;
-			remoteInfo = "MapKitAramaİslemi";
+			remoteGlobalIDString = A6408A482A09617400D096EF;
+			remoteInfo = ProtocolKullanimi;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A6D4E7ED2A09202A00E72E8F /* MapKitAramaİslemi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MapKitAramaİslemi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6D4E7F02A09202A00E72E8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A6D4E7F22A09202A00E72E8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A6D4E7F42A09202A00E72E8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A6D4E7F72A09202A00E72E8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A6D4E7F92A09202B00E72E8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A6D4E7FC2A09202B00E72E8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A6D4E7FE2A09202B00E72E8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A6D4E8032A09202B00E72E8F /* MapKitAramaİslemiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MapKitAramaİslemiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6D4E8072A09202B00E72E8F /* MapKitAramaI_slemiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitAramaI_slemiTests.swift; sourceTree = "<group>"; };
-		A6D4E80D2A09202B00E72E8F /* MapKitAramaİslemiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MapKitAramaİslemiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6D4E8112A09202B00E72E8F /* MapKitAramaI_slemiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitAramaI_slemiUITests.swift; sourceTree = "<group>"; };
-		A6D4E8132A09202B00E72E8F /* MapKitAramaI_slemiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitAramaI_slemiUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		A6D4E8212A09204300E72E8F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A6408A492A09617400D096EF /* ProtocolKullanimi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProtocolKullanimi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6408A4C2A09617400D096EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6408A4E2A09617400D096EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A6408A502A09617400D096EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A6408A532A09617400D096EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6408A552A09617500D096EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6408A582A09617500D096EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6408A5A2A09617500D096EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6408A5F2A09617500D096EF /* ProtocolKullanimiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtocolKullanimiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6408A632A09617500D096EF /* ProtocolKullanimiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolKullanimiTests.swift; sourceTree = "<group>"; };
+		A6408A692A09617500D096EF /* ProtocolKullanimiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtocolKullanimiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6408A6D2A09617500D096EF /* ProtocolKullanimiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolKullanimiUITests.swift; sourceTree = "<group>"; };
+		A6408A6F2A09617500D096EF /* ProtocolKullanimiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolKullanimiUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A6D4E7EA2A09202A00E72E8F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A6D4E8222A09204300E72E8F /* MapKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A6D4E8002A09202B00E72E8F /* Frameworks */ = {
+		A6408A462A09617400D096EF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6D4E80A2A09202B00E72E8F /* Frameworks */ = {
+		A6408A5C2A09617500D096EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6408A662A09617500D096EF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -79,146 +76,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A6D4E7E42A09202A00E72E8F = {
+		A6408A402A09617400D096EF = {
 			isa = PBXGroup;
 			children = (
-				A6D4E7EF2A09202A00E72E8F /* MapKitAramaİslemi */,
-				A6D4E8062A09202B00E72E8F /* MapKitAramaİslemiTests */,
-				A6D4E8102A09202B00E72E8F /* MapKitAramaİslemiUITests */,
-				A6D4E7EE2A09202A00E72E8F /* Products */,
-				A6D4E8202A09204300E72E8F /* Frameworks */,
+				A6408A4B2A09617400D096EF /* ProtocolKullanimi */,
+				A6408A622A09617500D096EF /* ProtocolKullanimiTests */,
+				A6408A6C2A09617500D096EF /* ProtocolKullanimiUITests */,
+				A6408A4A2A09617400D096EF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A6D4E7EE2A09202A00E72E8F /* Products */ = {
+		A6408A4A2A09617400D096EF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A6D4E7ED2A09202A00E72E8F /* MapKitAramaİslemi.app */,
-				A6D4E8032A09202B00E72E8F /* MapKitAramaİslemiTests.xctest */,
-				A6D4E80D2A09202B00E72E8F /* MapKitAramaİslemiUITests.xctest */,
+				A6408A492A09617400D096EF /* ProtocolKullanimi.app */,
+				A6408A5F2A09617500D096EF /* ProtocolKullanimiTests.xctest */,
+				A6408A692A09617500D096EF /* ProtocolKullanimiUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A6D4E7EF2A09202A00E72E8F /* MapKitAramaİslemi */ = {
+		A6408A4B2A09617400D096EF /* ProtocolKullanimi */ = {
 			isa = PBXGroup;
 			children = (
-				A6D4E7F02A09202A00E72E8F /* AppDelegate.swift */,
-				A6D4E7F22A09202A00E72E8F /* SceneDelegate.swift */,
-				A6D4E7F42A09202A00E72E8F /* ViewController.swift */,
-				A6D4E7F62A09202A00E72E8F /* Main.storyboard */,
-				A6D4E7F92A09202B00E72E8F /* Assets.xcassets */,
-				A6D4E7FB2A09202B00E72E8F /* LaunchScreen.storyboard */,
-				A6D4E7FE2A09202B00E72E8F /* Info.plist */,
+				A6408A4C2A09617400D096EF /* AppDelegate.swift */,
+				A6408A4E2A09617400D096EF /* SceneDelegate.swift */,
+				A6408A502A09617400D096EF /* ViewController.swift */,
+				A6408A522A09617400D096EF /* Main.storyboard */,
+				A6408A552A09617500D096EF /* Assets.xcassets */,
+				A6408A572A09617500D096EF /* LaunchScreen.storyboard */,
+				A6408A5A2A09617500D096EF /* Info.plist */,
 			);
-			path = "MapKitAramaİslemi";
+			path = ProtocolKullanimi;
 			sourceTree = "<group>";
 		};
-		A6D4E8062A09202B00E72E8F /* MapKitAramaİslemiTests */ = {
+		A6408A622A09617500D096EF /* ProtocolKullanimiTests */ = {
 			isa = PBXGroup;
 			children = (
-				A6D4E8072A09202B00E72E8F /* MapKitAramaI_slemiTests.swift */,
+				A6408A632A09617500D096EF /* ProtocolKullanimiTests.swift */,
 			);
-			path = "MapKitAramaİslemiTests";
+			path = ProtocolKullanimiTests;
 			sourceTree = "<group>";
 		};
-		A6D4E8102A09202B00E72E8F /* MapKitAramaİslemiUITests */ = {
+		A6408A6C2A09617500D096EF /* ProtocolKullanimiUITests */ = {
 			isa = PBXGroup;
 			children = (
-				A6D4E8112A09202B00E72E8F /* MapKitAramaI_slemiUITests.swift */,
-				A6D4E8132A09202B00E72E8F /* MapKitAramaI_slemiUITestsLaunchTests.swift */,
+				A6408A6D2A09617500D096EF /* ProtocolKullanimiUITests.swift */,
+				A6408A6F2A09617500D096EF /* ProtocolKullanimiUITestsLaunchTests.swift */,
 			);
-			path = "MapKitAramaİslemiUITests";
-			sourceTree = "<group>";
-		};
-		A6D4E8202A09204300E72E8F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A6D4E8212A09204300E72E8F /* MapKit.framework */,
-			);
-			name = Frameworks;
+			path = ProtocolKullanimiUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A6D4E7EC2A09202A00E72E8F /* MapKitAramaİslemi */ = {
+		A6408A482A09617400D096EF /* ProtocolKullanimi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6D4E8172A09202B00E72E8F /* Build configuration list for PBXNativeTarget "MapKitAramaİslemi" */;
+			buildConfigurationList = A6408A732A09617500D096EF /* Build configuration list for PBXNativeTarget "ProtocolKullanimi" */;
 			buildPhases = (
-				A6D4E7E92A09202A00E72E8F /* Sources */,
-				A6D4E7EA2A09202A00E72E8F /* Frameworks */,
-				A6D4E7EB2A09202A00E72E8F /* Resources */,
+				A6408A452A09617400D096EF /* Sources */,
+				A6408A462A09617400D096EF /* Frameworks */,
+				A6408A472A09617400D096EF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "MapKitAramaİslemi";
-			productName = "MapKitAramaİslemi";
-			productReference = A6D4E7ED2A09202A00E72E8F /* MapKitAramaİslemi.app */;
+			name = ProtocolKullanimi;
+			productName = ProtocolKullanimi;
+			productReference = A6408A492A09617400D096EF /* ProtocolKullanimi.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A6D4E8022A09202B00E72E8F /* MapKitAramaİslemiTests */ = {
+		A6408A5E2A09617500D096EF /* ProtocolKullanimiTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6D4E81A2A09202B00E72E8F /* Build configuration list for PBXNativeTarget "MapKitAramaİslemiTests" */;
+			buildConfigurationList = A6408A762A09617500D096EF /* Build configuration list for PBXNativeTarget "ProtocolKullanimiTests" */;
 			buildPhases = (
-				A6D4E7FF2A09202B00E72E8F /* Sources */,
-				A6D4E8002A09202B00E72E8F /* Frameworks */,
-				A6D4E8012A09202B00E72E8F /* Resources */,
+				A6408A5B2A09617500D096EF /* Sources */,
+				A6408A5C2A09617500D096EF /* Frameworks */,
+				A6408A5D2A09617500D096EF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A6D4E8052A09202B00E72E8F /* PBXTargetDependency */,
+				A6408A612A09617500D096EF /* PBXTargetDependency */,
 			);
-			name = "MapKitAramaİslemiTests";
-			productName = "MapKitAramaİslemiTests";
-			productReference = A6D4E8032A09202B00E72E8F /* MapKitAramaİslemiTests.xctest */;
+			name = ProtocolKullanimiTests;
+			productName = ProtocolKullanimiTests;
+			productReference = A6408A5F2A09617500D096EF /* ProtocolKullanimiTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A6D4E80C2A09202B00E72E8F /* MapKitAramaİslemiUITests */ = {
+		A6408A682A09617500D096EF /* ProtocolKullanimiUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6D4E81D2A09202B00E72E8F /* Build configuration list for PBXNativeTarget "MapKitAramaİslemiUITests" */;
+			buildConfigurationList = A6408A792A09617500D096EF /* Build configuration list for PBXNativeTarget "ProtocolKullanimiUITests" */;
 			buildPhases = (
-				A6D4E8092A09202B00E72E8F /* Sources */,
-				A6D4E80A2A09202B00E72E8F /* Frameworks */,
-				A6D4E80B2A09202B00E72E8F /* Resources */,
+				A6408A652A09617500D096EF /* Sources */,
+				A6408A662A09617500D096EF /* Frameworks */,
+				A6408A672A09617500D096EF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A6D4E80F2A09202B00E72E8F /* PBXTargetDependency */,
+				A6408A6B2A09617500D096EF /* PBXTargetDependency */,
 			);
-			name = "MapKitAramaİslemiUITests";
-			productName = "MapKitAramaİslemiUITests";
-			productReference = A6D4E80D2A09202B00E72E8F /* MapKitAramaİslemiUITests.xctest */;
+			name = ProtocolKullanimiUITests;
+			productName = ProtocolKullanimiUITests;
+			productReference = A6408A692A09617500D096EF /* ProtocolKullanimiUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A6D4E7E52A09202A00E72E8F /* Project object */ = {
+		A6408A412A09617400D096EF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					A6D4E7EC2A09202A00E72E8F = {
+					A6408A482A09617400D096EF = {
 						CreatedOnToolsVersion = 14.3;
 					};
-					A6D4E8022A09202B00E72E8F = {
+					A6408A5E2A09617500D096EF = {
 						CreatedOnToolsVersion = 14.3;
-						TestTargetID = A6D4E7EC2A09202A00E72E8F;
+						TestTargetID = A6408A482A09617400D096EF;
 					};
-					A6D4E80C2A09202B00E72E8F = {
+					A6408A682A09617500D096EF = {
 						CreatedOnToolsVersion = 14.3;
-						TestTargetID = A6D4E7EC2A09202A00E72E8F;
+						TestTargetID = A6408A482A09617400D096EF;
 					};
 				};
 			};
-			buildConfigurationList = A6D4E7E82A09202A00E72E8F /* Build configuration list for PBXProject "MapKitAramaİslemi" */;
+			buildConfigurationList = A6408A442A09617400D096EF /* Build configuration list for PBXProject "ProtocolKullanimi" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -226,37 +214,37 @@
 				en,
 				Base,
 			);
-			mainGroup = A6D4E7E42A09202A00E72E8F;
-			productRefGroup = A6D4E7EE2A09202A00E72E8F /* Products */;
+			mainGroup = A6408A402A09617400D096EF;
+			productRefGroup = A6408A4A2A09617400D096EF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A6D4E7EC2A09202A00E72E8F /* MapKitAramaİslemi */,
-				A6D4E8022A09202B00E72E8F /* MapKitAramaİslemiTests */,
-				A6D4E80C2A09202B00E72E8F /* MapKitAramaİslemiUITests */,
+				A6408A482A09617400D096EF /* ProtocolKullanimi */,
+				A6408A5E2A09617500D096EF /* ProtocolKullanimiTests */,
+				A6408A682A09617500D096EF /* ProtocolKullanimiUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A6D4E7EB2A09202A00E72E8F /* Resources */ = {
+		A6408A472A09617400D096EF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6D4E7FD2A09202B00E72E8F /* LaunchScreen.storyboard in Resources */,
-				A6D4E7FA2A09202B00E72E8F /* Assets.xcassets in Resources */,
-				A6D4E7F82A09202A00E72E8F /* Main.storyboard in Resources */,
+				A6408A592A09617500D096EF /* LaunchScreen.storyboard in Resources */,
+				A6408A562A09617500D096EF /* Assets.xcassets in Resources */,
+				A6408A542A09617400D096EF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6D4E8012A09202B00E72E8F /* Resources */ = {
+		A6408A5D2A09617500D096EF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6D4E80B2A09202B00E72E8F /* Resources */ = {
+		A6408A672A09617500D096EF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -266,61 +254,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A6D4E7E92A09202A00E72E8F /* Sources */ = {
+		A6408A452A09617400D096EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6D4E7F52A09202A00E72E8F /* ViewController.swift in Sources */,
-				A6D4E7F12A09202A00E72E8F /* AppDelegate.swift in Sources */,
-				A6D4E7F32A09202A00E72E8F /* SceneDelegate.swift in Sources */,
+				A6408A512A09617400D096EF /* ViewController.swift in Sources */,
+				A6408A4D2A09617400D096EF /* AppDelegate.swift in Sources */,
+				A6408A4F2A09617400D096EF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6D4E7FF2A09202B00E72E8F /* Sources */ = {
+		A6408A5B2A09617500D096EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6D4E8082A09202B00E72E8F /* MapKitAramaI_slemiTests.swift in Sources */,
+				A6408A642A09617500D096EF /* ProtocolKullanimiTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6D4E8092A09202B00E72E8F /* Sources */ = {
+		A6408A652A09617500D096EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6D4E8142A09202B00E72E8F /* MapKitAramaI_slemiUITestsLaunchTests.swift in Sources */,
-				A6D4E8122A09202B00E72E8F /* MapKitAramaI_slemiUITests.swift in Sources */,
+				A6408A6E2A09617500D096EF /* ProtocolKullanimiUITests.swift in Sources */,
+				A6408A702A09617500D096EF /* ProtocolKullanimiUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A6D4E8052A09202B00E72E8F /* PBXTargetDependency */ = {
+		A6408A612A09617500D096EF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A6D4E7EC2A09202A00E72E8F /* MapKitAramaİslemi */;
-			targetProxy = A6D4E8042A09202B00E72E8F /* PBXContainerItemProxy */;
+			target = A6408A482A09617400D096EF /* ProtocolKullanimi */;
+			targetProxy = A6408A602A09617500D096EF /* PBXContainerItemProxy */;
 		};
-		A6D4E80F2A09202B00E72E8F /* PBXTargetDependency */ = {
+		A6408A6B2A09617500D096EF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A6D4E7EC2A09202A00E72E8F /* MapKitAramaİslemi */;
-			targetProxy = A6D4E80E2A09202B00E72E8F /* PBXContainerItemProxy */;
+			target = A6408A482A09617400D096EF /* ProtocolKullanimi */;
+			targetProxy = A6408A6A2A09617500D096EF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A6D4E7F62A09202A00E72E8F /* Main.storyboard */ = {
+		A6408A522A09617400D096EF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A6D4E7F72A09202A00E72E8F /* Base */,
+				A6408A532A09617400D096EF /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A6D4E7FB2A09202B00E72E8F /* LaunchScreen.storyboard */ = {
+		A6408A572A09617500D096EF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A6D4E7FC2A09202B00E72E8F /* Base */,
+				A6408A582A09617500D096EF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -328,7 +316,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A6D4E8152A09202B00E72E8F /* Debug */ = {
+		A6408A712A09617500D096EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -388,7 +376,7 @@
 			};
 			name = Debug;
 		};
-		A6D4E8162A09202B00E72E8F /* Release */ = {
+		A6408A722A09617500D096EF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -442,7 +430,7 @@
 			};
 			name = Release;
 		};
-		A6D4E8182A09202B00E72E8F /* Debug */ = {
+		A6408A742A09617500D096EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -451,7 +439,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YNH65UJDQA;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "MapKitAramaİslemi/Info.plist";
+				INFOPLIST_FILE = ProtocolKullanimi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -462,7 +450,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "OzkanNevin.MapKitAramaI-slemi";
+				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.ProtocolKullanimi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -470,7 +458,7 @@
 			};
 			name = Debug;
 		};
-		A6D4E8192A09202B00E72E8F /* Release */ = {
+		A6408A752A09617500D096EF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -479,7 +467,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YNH65UJDQA;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "MapKitAramaİslemi/Info.plist";
+				INFOPLIST_FILE = ProtocolKullanimi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -490,7 +478,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "OzkanNevin.MapKitAramaI-slemi";
+				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.ProtocolKullanimi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -498,7 +486,7 @@
 			};
 			name = Release;
 		};
-		A6D4E81B2A09202B00E72E8F /* Debug */ = {
+		A6408A772A09617500D096EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -509,16 +497,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "OzkanNevin.MapKitAramaI-slemiTests";
+				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.ProtocolKullanimiTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapKitAramaİslemi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MapKitAramaİslemi";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProtocolKullanimi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProtocolKullanimi";
 			};
 			name = Debug;
 		};
-		A6D4E81C2A09202B00E72E8F /* Release */ = {
+		A6408A782A09617500D096EF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -529,16 +517,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "OzkanNevin.MapKitAramaI-slemiTests";
+				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.ProtocolKullanimiTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapKitAramaİslemi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MapKitAramaİslemi";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProtocolKullanimi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProtocolKullanimi";
 			};
 			name = Release;
 		};
-		A6D4E81E2A09202B00E72E8F /* Debug */ = {
+		A6408A7A2A09617500D096EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -547,16 +535,16 @@
 				DEVELOPMENT_TEAM = YNH65UJDQA;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "OzkanNevin.MapKitAramaI-slemiUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.ProtocolKullanimiUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "MapKitAramaİslemi";
+				TEST_TARGET_NAME = ProtocolKullanimi;
 			};
 			name = Debug;
 		};
-		A6D4E81F2A09202B00E72E8F /* Release */ = {
+		A6408A7B2A09617500D096EF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -565,55 +553,55 @@
 				DEVELOPMENT_TEAM = YNH65UJDQA;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "OzkanNevin.MapKitAramaI-slemiUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.ProtocolKullanimiUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "MapKitAramaİslemi";
+				TEST_TARGET_NAME = ProtocolKullanimi;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A6D4E7E82A09202A00E72E8F /* Build configuration list for PBXProject "MapKitAramaİslemi" */ = {
+		A6408A442A09617400D096EF /* Build configuration list for PBXProject "ProtocolKullanimi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6D4E8152A09202B00E72E8F /* Debug */,
-				A6D4E8162A09202B00E72E8F /* Release */,
+				A6408A712A09617500D096EF /* Debug */,
+				A6408A722A09617500D096EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6D4E8172A09202B00E72E8F /* Build configuration list for PBXNativeTarget "MapKitAramaİslemi" */ = {
+		A6408A732A09617500D096EF /* Build configuration list for PBXNativeTarget "ProtocolKullanimi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6D4E8182A09202B00E72E8F /* Debug */,
-				A6D4E8192A09202B00E72E8F /* Release */,
+				A6408A742A09617500D096EF /* Debug */,
+				A6408A752A09617500D096EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6D4E81A2A09202B00E72E8F /* Build configuration list for PBXNativeTarget "MapKitAramaİslemiTests" */ = {
+		A6408A762A09617500D096EF /* Build configuration list for PBXNativeTarget "ProtocolKullanimiTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6D4E81B2A09202B00E72E8F /* Debug */,
-				A6D4E81C2A09202B00E72E8F /* Release */,
+				A6408A772A09617500D096EF /* Debug */,
+				A6408A782A09617500D096EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6D4E81D2A09202B00E72E8F /* Build configuration list for PBXNativeTarget "MapKitAramaİslemiUITests" */ = {
+		A6408A792A09617500D096EF /* Build configuration list for PBXNativeTarget "ProtocolKullanimiUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6D4E81E2A09202B00E72E8F /* Debug */,
-				A6D4E81F2A09202B00E72E8F /* Release */,
+				A6408A7A2A09617500D096EF /* Debug */,
+				A6408A7B2A09617500D096EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A6D4E7E52A09202A00E72E8F /* Project object */;
+	rootObject = A6408A412A09617400D096EF /* Project object */;
 }
