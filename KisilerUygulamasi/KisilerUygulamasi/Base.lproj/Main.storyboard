@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aR5-MK-pfk">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Kişiler-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="AnasayfaVC" customModule="KisilerUygulamasi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="wzM-ng-dXn">
+                                <rect key="frame" x="0.0" y="163" width="393" height="56"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="8Vu-dy-avg"/>
+                                </connections>
+                            </searchBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="hw5-Is-cOO">
+                                <rect key="frame" x="0.0" y="219.33333333333331" width="393" height="598.66666666666674"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="kisilerHucre" id="68g-QX-kdN" customClass="TableViewHucre" customModule="KisilerUygulamasi" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="68g-QX-kdN" id="zRC-A5-eSj">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="100"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7At-Ym-Qoz">
+                                                    <rect key="frame" x="167" y="35" width="59" height="30"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="7At-Ym-Qoz" firstAttribute="centerY" secondItem="zRC-A5-eSj" secondAttribute="centerY" id="53G-u5-DLm"/>
+                                                <constraint firstItem="7At-Ym-Qoz" firstAttribute="centerX" secondItem="zRC-A5-eSj" secondAttribute="centerX" id="Q72-yU-8Cz"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="kisiBilgiLabel" destination="7At-Ym-Qoz" id="2I6-6J-jrU"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hw5-Is-cOO" firstAttribute="top" secondItem="wzM-ng-dXn" secondAttribute="bottom" id="6aY-7w-gpZ"/>
+                            <constraint firstItem="wzM-ng-dXn" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="IYl-P6-WQo"/>
+                            <constraint firstItem="wzM-ng-dXn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="M5a-hZ-Cdx"/>
+                            <constraint firstItem="hw5-Is-cOO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="PMP-Oc-bE0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hw5-Is-cOO" secondAttribute="bottom" id="X83-Aw-j4b"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hw5-Is-cOO" secondAttribute="trailing" id="h5h-95-fmR"/>
+                            <constraint firstItem="wzM-ng-dXn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="lof-Gq-7Rl"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Kişiler" id="woJ-LN-0tn">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Kw6-Hm-yho">
+                            <connections>
+                                <segue destination="pjV-1T-ueh" kind="show" id="5I2-GY-haB"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="kisilerTableView" destination="hw5-Is-cOO" id="KxY-ul-r3p"/>
+                        <outlet property="searchBar" destination="wzM-ng-dXn" id="TPc-Tl-msH"/>
+                        <segue destination="Nb6-TH-KC8" kind="show" identifier="toDetay" id="Z64-ee-p9A"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="277" y="-18"/>
+        </scene>
+        <!--Kişi Kayıt-->
+        <scene sceneID="xUy-Rw-PIi">
+            <objects>
+                <viewController id="pjV-1T-ueh" customClass="KisiKayitVC" customModule="KisilerUygulamasi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sTD-TI-vwp">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Kişi Adı" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="loz-JK-hgi">
+                                <rect key="frame" x="32" y="213.33333333333334" width="329" height="45.666666666666657"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nKx-UN-mwR">
+                                <rect key="frame" x="129.66666666666666" y="404.66666666666669" width="133.99999999999997" height="50"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="KAYDET">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="buttonKaydet:" destination="pjV-1T-ueh" eventType="touchUpInside" id="Qsq-NE-Zgg"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Kişi Tel" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b8H-xS-tSh">
+                                <rect key="frame" x="32" y="309" width="329" height="45.666666666666686"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="N3q-FR-Vf3"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="b8H-xS-tSh" firstAttribute="top" secondItem="loz-JK-hgi" secondAttribute="bottom" constant="50" id="3Wg-8Y-1yk"/>
+                            <constraint firstItem="nKx-UN-mwR" firstAttribute="centerX" secondItem="sTD-TI-vwp" secondAttribute="centerX" id="5IW-lS-nTx"/>
+                            <constraint firstItem="nKx-UN-mwR" firstAttribute="top" secondItem="b8H-xS-tSh" secondAttribute="bottom" constant="50" id="LPD-er-9SD"/>
+                            <constraint firstItem="loz-JK-hgi" firstAttribute="leading" secondItem="N3q-FR-Vf3" secondAttribute="leading" constant="32" id="Llh-27-UL5"/>
+                            <constraint firstItem="N3q-FR-Vf3" firstAttribute="trailing" secondItem="loz-JK-hgi" secondAttribute="trailing" constant="32" id="avL-Hm-mQS"/>
+                            <constraint firstItem="loz-JK-hgi" firstAttribute="top" secondItem="N3q-FR-Vf3" secondAttribute="top" constant="50" id="gNP-v5-VUD"/>
+                            <constraint firstItem="b8H-xS-tSh" firstAttribute="leading" secondItem="N3q-FR-Vf3" secondAttribute="leading" constant="32" id="iuc-q9-Ek0"/>
+                            <constraint firstItem="N3q-FR-Vf3" firstAttribute="trailing" secondItem="b8H-xS-tSh" secondAttribute="trailing" constant="32" id="yn7-gQ-qss"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Kişi Kayıt" id="Dvk-HZ-Y0c"/>
+                    <connections>
+                        <outlet property="tfKisiAd" destination="loz-JK-hgi" id="gvn-fq-RQQ"/>
+                        <outlet property="tfKisiTel" destination="b8H-xS-tSh" id="toe-xm-lbL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="abJ-Wm-Tkn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="967" y="-319"/>
+        </scene>
+        <!--Kişi Detay-->
+        <scene sceneID="mfF-eb-kVn">
+            <objects>
+                <viewController id="Nb6-TH-KC8" customClass="KisiDetayVC" customModule="KisilerUygulamasi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qje-0x-n7L">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Kişi Adı" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZLz-WQ-3GM">
+                                <rect key="frame" x="32" y="213.33333333333334" width="329" height="45.666666666666657"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Kişi Tel" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T3w-9C-AaN">
+                                <rect key="frame" x="32" y="309" width="329" height="45.666666666666686"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7kX-V6-6JA">
+                                <rect key="frame" x="108.66666666666667" y="404.66666666666669" width="175.66666666666657" height="50"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="GÜNCELLE">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="buttonGuncelle:" destination="Nb6-TH-KC8" eventType="touchUpInside" id="H0z-RQ-Uqj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="hse-Cd-XAf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="T3w-9C-AaN" firstAttribute="top" secondItem="ZLz-WQ-3GM" secondAttribute="bottom" constant="50" id="3Vs-lh-fKT"/>
+                            <constraint firstItem="7kX-V6-6JA" firstAttribute="centerX" secondItem="qje-0x-n7L" secondAttribute="centerX" id="5oL-J6-Qhp"/>
+                            <constraint firstItem="hse-Cd-XAf" firstAttribute="trailing" secondItem="ZLz-WQ-3GM" secondAttribute="trailing" constant="32" id="8Ac-uL-30E"/>
+                            <constraint firstItem="7kX-V6-6JA" firstAttribute="top" secondItem="T3w-9C-AaN" secondAttribute="bottom" constant="50" id="Fwb-aJ-dQl"/>
+                            <constraint firstItem="ZLz-WQ-3GM" firstAttribute="leading" secondItem="hse-Cd-XAf" secondAttribute="leading" constant="32" id="NuY-37-9X0"/>
+                            <constraint firstItem="hse-Cd-XAf" firstAttribute="trailing" secondItem="T3w-9C-AaN" secondAttribute="trailing" constant="32" id="cDR-KF-OiD"/>
+                            <constraint firstItem="T3w-9C-AaN" firstAttribute="leading" secondItem="hse-Cd-XAf" secondAttribute="leading" constant="32" id="ixS-Lu-nvz"/>
+                            <constraint firstItem="ZLz-WQ-3GM" firstAttribute="top" secondItem="hse-Cd-XAf" secondAttribute="top" constant="50" id="oG4-bG-pzJ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Kişi Detay" id="vrw-RE-ymf"/>
+                    <connections>
+                        <outlet property="tfKisiAd" destination="ZLz-WQ-3GM" id="JTI-0A-ObQ"/>
+                        <outlet property="tfKisiTel" destination="T3w-9C-AaN" id="xa7-uh-boU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8eI-KA-feH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="966" y="348"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="9Tf-zG-vPS">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="aR5-MK-pfk" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="IJT-DL-gtx">
+                        <rect key="frame" x="0.0" y="59" width="393" height="104.33333333333334"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="YPY-ns-Ecn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CxS-KV-EPT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-431.29770992366412" y="-18.30985915492958"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

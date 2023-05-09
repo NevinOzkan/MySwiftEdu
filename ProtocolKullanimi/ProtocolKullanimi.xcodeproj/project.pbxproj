@@ -16,6 +16,8 @@
 		A6408A642A09617500D096EF /* ProtocolKullanimiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6408A632A09617500D096EF /* ProtocolKullanimiTests.swift */; };
 		A6408A6E2A09617500D096EF /* ProtocolKullanimiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6408A6D2A09617500D096EF /* ProtocolKullanimiUITests.swift */; };
 		A6408A702A09617500D096EF /* ProtocolKullanimiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6408A6F2A09617500D096EF /* ProtocolKullanimiUITestsLaunchTests.swift */; };
+		A6408A7D2A0961BA00D096EF /* DetayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6408A7C2A0961BA00D096EF /* DetayVC.swift */; };
+		A6408A7F2A09644C00D096EF /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6408A7E2A09644C00D096EF /* Protocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		A6408A692A09617500D096EF /* ProtocolKullanimiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtocolKullanimiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6408A6D2A09617500D096EF /* ProtocolKullanimiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolKullanimiUITests.swift; sourceTree = "<group>"; };
 		A6408A6F2A09617500D096EF /* ProtocolKullanimiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolKullanimiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A6408A7C2A0961BA00D096EF /* DetayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayVC.swift; sourceTree = "<group>"; };
+		A6408A7E2A09644C00D096EF /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				A6408A552A09617500D096EF /* Assets.xcassets */,
 				A6408A572A09617500D096EF /* LaunchScreen.storyboard */,
 				A6408A5A2A09617500D096EF /* Info.plist */,
+				A6408A7C2A0961BA00D096EF /* DetayVC.swift */,
+				A6408A7E2A09644C00D096EF /* Protocols.swift */,
 			);
 			path = ProtocolKullanimi;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6408A7F2A09644C00D096EF /* Protocols.swift in Sources */,
+				A6408A7D2A0961BA00D096EF /* DetayVC.swift in Sources */,
 				A6408A512A09617400D096EF /* ViewController.swift in Sources */,
 				A6408A4D2A09617400D096EF /* AppDelegate.swift in Sources */,
 				A6408A4F2A09617400D096EF /* SceneDelegate.swift in Sources */,

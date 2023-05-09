@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+protocol DetayVCToViewControllerProtocol {
+    func veriGonder(mesaj:String)
+}
