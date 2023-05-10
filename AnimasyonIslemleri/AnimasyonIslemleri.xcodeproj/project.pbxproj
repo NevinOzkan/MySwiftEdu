@@ -7,34 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A6823ACD2A0A51AC00DC03AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6823ACC2A0A51AB00DC03AC /* AppDelegate.swift */; };
-		A6823ACF2A0A51AC00DC03AC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A6823ACE2A0A51AC00DC03AC /* GameScene.sks */; };
-		A6823AD12A0A51AC00DC03AC /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A6823AD02A0A51AC00DC03AC /* Actions.sks */; };
-		A6823AD32A0A51AC00DC03AC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6823AD22A0A51AC00DC03AC /* GameScene.swift */; };
-		A6823AD52A0A51AC00DC03AC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6823AD42A0A51AC00DC03AC /* GameViewController.swift */; };
-		A6823AD82A0A51AC00DC03AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6823AD62A0A51AC00DC03AC /* Main.storyboard */; };
-		A6823ADA2A0A51AC00DC03AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6823AD92A0A51AC00DC03AC /* Assets.xcassets */; };
-		A6823ADD2A0A51AC00DC03AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6823ADB2A0A51AC00DC03AC /* LaunchScreen.storyboard */; };
-		A6823AE42A0A55D200DC03AC /* OyunAlani.sks in Resources */ = {isa = PBXBuildFile; fileRef = A6823AE32A0A55D200DC03AC /* OyunAlani.sks */; };
-		A6823AE62A0A565900DC03AC /* OyunAlaniSinifi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6823AE52A0A565900DC03AC /* OyunAlaniSinifi.swift */; };
+		A672EA632A0BB442002ECC83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A672EA622A0BB442002ECC83 /* AppDelegate.swift */; };
+		A672EA652A0BB442002ECC83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A672EA642A0BB442002ECC83 /* SceneDelegate.swift */; };
+		A672EA672A0BB442002ECC83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A672EA662A0BB442002ECC83 /* ViewController.swift */; };
+		A672EA6A2A0BB442002ECC83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A672EA682A0BB442002ECC83 /* Main.storyboard */; };
+		A672EA6C2A0BB443002ECC83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A672EA6B2A0BB443002ECC83 /* Assets.xcassets */; };
+		A672EA6F2A0BB443002ECC83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A672EA6D2A0BB443002ECC83 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A6823AC92A0A51AB00DC03AC /* SpriteKullanimi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKullanimi.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6823ACC2A0A51AB00DC03AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A6823ACE2A0A51AC00DC03AC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		A6823AD02A0A51AC00DC03AC /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		A6823AD22A0A51AC00DC03AC /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		A6823AD42A0A51AC00DC03AC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		A6823AD72A0A51AC00DC03AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A6823AD92A0A51AC00DC03AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A6823ADC2A0A51AC00DC03AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A6823AE32A0A55D200DC03AC /* OyunAlani.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = OyunAlani.sks; sourceTree = "<group>"; };
-		A6823AE52A0A565900DC03AC /* OyunAlaniSinifi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OyunAlaniSinifi.swift; sourceTree = "<group>"; };
+		A672EA5F2A0BB442002ECC83 /* AnimasyonIslemleri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimasyonIslemleri.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A672EA622A0BB442002ECC83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A672EA642A0BB442002ECC83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A672EA662A0BB442002ECC83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A672EA692A0BB442002ECC83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A672EA6B2A0BB443002ECC83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A672EA6E2A0BB443002ECC83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A672EA702A0BB443002ECC83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A6823AC62A0A51AB00DC03AC /* Frameworks */ = {
+		A672EA5C2A0BB442002ECC83 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,75 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A6823AC02A0A51AB00DC03AC = {
+		A672EA562A0BB442002ECC83 = {
 			isa = PBXGroup;
 			children = (
-				A6823ACB2A0A51AB00DC03AC /* SpriteKullanimi */,
-				A6823ACA2A0A51AB00DC03AC /* Products */,
+				A672EA612A0BB442002ECC83 /* AnimasyonIslemleri */,
+				A672EA602A0BB442002ECC83 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A6823ACA2A0A51AB00DC03AC /* Products */ = {
+		A672EA602A0BB442002ECC83 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A6823AC92A0A51AB00DC03AC /* SpriteKullanimi.app */,
+				A672EA5F2A0BB442002ECC83 /* AnimasyonIslemleri.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A6823ACB2A0A51AB00DC03AC /* SpriteKullanimi */ = {
+		A672EA612A0BB442002ECC83 /* AnimasyonIslemleri */ = {
 			isa = PBXGroup;
 			children = (
-				A6823ACC2A0A51AB00DC03AC /* AppDelegate.swift */,
-				A6823ACE2A0A51AC00DC03AC /* GameScene.sks */,
-				A6823AE32A0A55D200DC03AC /* OyunAlani.sks */,
-				A6823AE52A0A565900DC03AC /* OyunAlaniSinifi.swift */,
-				A6823AD02A0A51AC00DC03AC /* Actions.sks */,
-				A6823AD22A0A51AC00DC03AC /* GameScene.swift */,
-				A6823AD42A0A51AC00DC03AC /* GameViewController.swift */,
-				A6823AD62A0A51AC00DC03AC /* Main.storyboard */,
-				A6823AD92A0A51AC00DC03AC /* Assets.xcassets */,
-				A6823ADB2A0A51AC00DC03AC /* LaunchScreen.storyboard */,
+				A672EA622A0BB442002ECC83 /* AppDelegate.swift */,
+				A672EA642A0BB442002ECC83 /* SceneDelegate.swift */,
+				A672EA662A0BB442002ECC83 /* ViewController.swift */,
+				A672EA682A0BB442002ECC83 /* Main.storyboard */,
+				A672EA6B2A0BB443002ECC83 /* Assets.xcassets */,
+				A672EA6D2A0BB443002ECC83 /* LaunchScreen.storyboard */,
+				A672EA702A0BB443002ECC83 /* Info.plist */,
 			);
-			path = SpriteKullanimi;
+			path = AnimasyonIslemleri;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A6823AC82A0A51AB00DC03AC /* SpriteKullanimi */ = {
+		A672EA5E2A0BB442002ECC83 /* AnimasyonIslemleri */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6823AE02A0A51AC00DC03AC /* Build configuration list for PBXNativeTarget "SpriteKullanimi" */;
+			buildConfigurationList = A672EA732A0BB443002ECC83 /* Build configuration list for PBXNativeTarget "AnimasyonIslemleri" */;
 			buildPhases = (
-				A6823AC52A0A51AB00DC03AC /* Sources */,
-				A6823AC62A0A51AB00DC03AC /* Frameworks */,
-				A6823AC72A0A51AB00DC03AC /* Resources */,
+				A672EA5B2A0BB442002ECC83 /* Sources */,
+				A672EA5C2A0BB442002ECC83 /* Frameworks */,
+				A672EA5D2A0BB442002ECC83 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SpriteKullanimi;
-			productName = SpriteKullanimi;
-			productReference = A6823AC92A0A51AB00DC03AC /* SpriteKullanimi.app */;
+			name = AnimasyonIslemleri;
+			productName = AnimasyonIslemleri;
+			productReference = A672EA5F2A0BB442002ECC83 /* AnimasyonIslemleri.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A6823AC12A0A51AB00DC03AC /* Project object */ = {
+		A672EA572A0BB442002ECC83 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					A6823AC82A0A51AB00DC03AC = {
+					A672EA5E2A0BB442002ECC83 = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
-			buildConfigurationList = A6823AC42A0A51AB00DC03AC /* Build configuration list for PBXProject "SpriteKullanimi" */;
+			buildConfigurationList = A672EA5A2A0BB442002ECC83 /* Build configuration list for PBXProject "AnimasyonIslemleri" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -120,59 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = A6823AC02A0A51AB00DC03AC;
-			productRefGroup = A6823ACA2A0A51AB00DC03AC /* Products */;
+			mainGroup = A672EA562A0BB442002ECC83;
+			productRefGroup = A672EA602A0BB442002ECC83 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A6823AC82A0A51AB00DC03AC /* SpriteKullanimi */,
+				A672EA5E2A0BB442002ECC83 /* AnimasyonIslemleri */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A6823AC72A0A51AB00DC03AC /* Resources */ = {
+		A672EA5D2A0BB442002ECC83 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6823AD82A0A51AC00DC03AC /* Main.storyboard in Resources */,
-				A6823ACF2A0A51AC00DC03AC /* GameScene.sks in Resources */,
-				A6823ADA2A0A51AC00DC03AC /* Assets.xcassets in Resources */,
-				A6823ADD2A0A51AC00DC03AC /* LaunchScreen.storyboard in Resources */,
-				A6823AE42A0A55D200DC03AC /* OyunAlani.sks in Resources */,
-				A6823AD12A0A51AC00DC03AC /* Actions.sks in Resources */,
+				A672EA6F2A0BB443002ECC83 /* LaunchScreen.storyboard in Resources */,
+				A672EA6C2A0BB443002ECC83 /* Assets.xcassets in Resources */,
+				A672EA6A2A0BB442002ECC83 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A6823AC52A0A51AB00DC03AC /* Sources */ = {
+		A672EA5B2A0BB442002ECC83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6823AD32A0A51AC00DC03AC /* GameScene.swift in Sources */,
-				A6823AD52A0A51AC00DC03AC /* GameViewController.swift in Sources */,
-				A6823AE62A0A565900DC03AC /* OyunAlaniSinifi.swift in Sources */,
-				A6823ACD2A0A51AC00DC03AC /* AppDelegate.swift in Sources */,
+				A672EA672A0BB442002ECC83 /* ViewController.swift in Sources */,
+				A672EA632A0BB442002ECC83 /* AppDelegate.swift in Sources */,
+				A672EA652A0BB442002ECC83 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A6823AD62A0A51AC00DC03AC /* Main.storyboard */ = {
+		A672EA682A0BB442002ECC83 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A6823AD72A0A51AC00DC03AC /* Base */,
+				A672EA692A0BB442002ECC83 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A6823ADB2A0A51AC00DC03AC /* LaunchScreen.storyboard */ = {
+		A672EA6D2A0BB443002ECC83 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A6823ADC2A0A51AC00DC03AC /* Base */,
+				A672EA6E2A0BB443002ECC83 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -180,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A6823ADE2A0A51AC00DC03AC /* Debug */ = {
+		A672EA712A0BB443002ECC83 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -240,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		A6823ADF2A0A51AC00DC03AC /* Release */ = {
+		A672EA722A0BB443002ECC83 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -294,7 +280,7 @@
 			};
 			name = Release;
 		};
-		A6823AE12A0A51AC00DC03AC /* Debug */ = {
+		A672EA742A0BB443002ECC83 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -303,10 +289,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YNH65UJDQA;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnimasyonIslemleri/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -314,7 +300,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.SpriteKullanimi;
+				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.AnimasyonIslemleri;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -322,7 +308,7 @@
 			};
 			name = Debug;
 		};
-		A6823AE22A0A51AC00DC03AC /* Release */ = {
+		A672EA752A0BB443002ECC83 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -331,10 +317,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YNH65UJDQA;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnimasyonIslemleri/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -342,7 +328,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.SpriteKullanimi;
+				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.AnimasyonIslemleri;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -353,25 +339,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A6823AC42A0A51AB00DC03AC /* Build configuration list for PBXProject "SpriteKullanimi" */ = {
+		A672EA5A2A0BB442002ECC83 /* Build configuration list for PBXProject "AnimasyonIslemleri" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6823ADE2A0A51AC00DC03AC /* Debug */,
-				A6823ADF2A0A51AC00DC03AC /* Release */,
+				A672EA712A0BB443002ECC83 /* Debug */,
+				A672EA722A0BB443002ECC83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6823AE02A0A51AC00DC03AC /* Build configuration list for PBXNativeTarget "SpriteKullanimi" */ = {
+		A672EA732A0BB443002ECC83 /* Build configuration list for PBXNativeTarget "AnimasyonIslemleri" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6823AE12A0A51AC00DC03AC /* Debug */,
-				A6823AE22A0A51AC00DC03AC /* Release */,
+				A672EA742A0BB443002ECC83 /* Debug */,
+				A672EA752A0BB443002ECC83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A6823AC12A0A51AB00DC03AC /* Project object */;
+	rootObject = A672EA572A0BB442002ECC83 /* Project object */;
 }

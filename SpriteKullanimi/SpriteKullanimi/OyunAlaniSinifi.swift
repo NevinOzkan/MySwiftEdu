@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import SpriteKit
+import GameplayKit
 
 class OyunAlaniSinifi: SKScene {
 
