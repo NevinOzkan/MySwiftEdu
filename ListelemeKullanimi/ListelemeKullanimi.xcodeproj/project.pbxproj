@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6E919E82A10F9C80025235E /* ListelemeKullanimiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E919E72A10F9C80025235E /* ListelemeKullanimiApp.swift */; };
+		A6E919EA2A10F9C80025235E /* DateAndTimePickerSayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E919E92A10F9C80025235E /* DateAndTimePickerSayfa.swift */; };
+		A6E919EC2A10F9C90025235E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6E919EB2A10F9C90025235E /* Assets.xcassets */; };
+		A6E919EF2A10F9C90025235E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6E919EE2A10F9C90025235E /* Preview Assets.xcassets */; };
+		A6E919F62A10FD6D0025235E /* SabitListeleme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E919F52A10FD6D0025235E /* SabitListeleme.swift */; };
+		A6E919F82A10FF300025235E /* DinamikListeleme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E919F72A10FF300025235E /* DinamikListeleme.swift */; };
+		A6E919FA2A10FFE10025235E /* Ulkeler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E919F92A10FFE10025235E /* Ulkeler.swift */; };
+		A6E919FC2A1105610025235E /* UlkeDetaySayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E919FB2A1105610025235E /* UlkeDetaySayfa.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6E919E42A10F9C80025235E /* ListelemeKullanimi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListelemeKullanimi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E919E72A10F9C80025235E /* ListelemeKullanimiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListelemeKullanimiApp.swift; sourceTree = "<group>"; };
+		A6E919E92A10F9C80025235E /* DateAndTimePickerSayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateAndTimePickerSayfa.swift; sourceTree = "<group>"; };
+		A6E919EB2A10F9C90025235E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6E919EE2A10F9C90025235E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A6E919F52A10FD6D0025235E /* SabitListeleme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SabitListeleme.swift; sourceTree = "<group>"; };
+		A6E919F72A10FF300025235E /* DinamikListeleme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinamikListeleme.swift; sourceTree = "<group>"; };
+		A6E919F92A10FFE10025235E /* Ulkeler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ulkeler.swift; sourceTree = "<group>"; };
+		A6E919FB2A1105610025235E /* UlkeDetaySayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UlkeDetaySayfa.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6E919E12A10F9C80025235E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6E919DB2A10F9C80025235E = {
+			isa = PBXGroup;
+			children = (
+				A6E919E62A10F9C80025235E /* ListelemeKullanimi */,
+				A6E919E52A10F9C80025235E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6E919E52A10F9C80025235E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6E919E42A10F9C80025235E /* ListelemeKullanimi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6E919E62A10F9C80025235E /* ListelemeKullanimi */ = {
+			isa = PBXGroup;
+			children = (
+				A6E919E72A10F9C80025235E /* ListelemeKullanimiApp.swift */,
+				A6E919E92A10F9C80025235E /* DateAndTimePickerSayfa.swift */,
+				A6E919F52A10FD6D0025235E /* SabitListeleme.swift */,
+				A6E919F72A10FF300025235E /* DinamikListeleme.swift */,
+				A6E919F92A10FFE10025235E /* Ulkeler.swift */,
+				A6E919FB2A1105610025235E /* UlkeDetaySayfa.swift */,
+				A6E919EB2A10F9C90025235E /* Assets.xcassets */,
+				A6E919ED2A10F9C90025235E /* Preview Content */,
+			);
+			path = ListelemeKullanimi;
+			sourceTree = "<group>";
+		};
+		A6E919ED2A10F9C90025235E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A6E919EE2A10F9C90025235E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6E919E32A10F9C80025235E /* ListelemeKullanimi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6E919F22A10F9C90025235E /* Build configuration list for PBXNativeTarget "ListelemeKullanimi" */;
+			buildPhases = (
+				A6E919E02A10F9C80025235E /* Sources */,
+				A6E919E12A10F9C80025235E /* Frameworks */,
+				A6E919E22A10F9C80025235E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ListelemeKullanimi;
+			productName = ListelemeKullanimi;
+			productReference = A6E919E42A10F9C80025235E /* ListelemeKullanimi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6E919DC2A10F9C80025235E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A6E919E32A10F9C80025235E = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = A6E919DF2A10F9C80025235E /* Build configuration list for PBXProject "ListelemeKullanimi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6E919DB2A10F9C80025235E;
+			productRefGroup = A6E919E52A10F9C80025235E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6E919E32A10F9C80025235E /* ListelemeKullanimi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6E919E22A10F9C80025235E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E919EF2A10F9C90025235E /* Preview Assets.xcassets in Resources */,
+				A6E919EC2A10F9C90025235E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6E919E02A10F9C80025235E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E919EA2A10F9C80025235E /* DateAndTimePickerSayfa.swift in Sources */,
+				A6E919FC2A1105610025235E /* UlkeDetaySayfa.swift in Sources */,
+				A6E919E82A10F9C80025235E /* ListelemeKullanimiApp.swift in Sources */,
+				A6E919FA2A10FFE10025235E /* Ulkeler.swift in Sources */,
+				A6E919F82A10FF300025235E /* DinamikListeleme.swift in Sources */,
+				A6E919F62A10FD6D0025235E /* SabitListeleme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A6E919F02A10F9C90025235E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6E919F12A10F9C90025235E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6E919F32A10F9C90025235E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ListelemeKullanimi/Preview Content\"";
+				DEVELOPMENT_TEAM = YNH65UJDQA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.ListelemeKullanimi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6E919F42A10F9C90025235E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ListelemeKullanimi/Preview Content\"";
+				DEVELOPMENT_TEAM = YNH65UJDQA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OzkanNevin.ListelemeKullanimi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6E919DF2A10F9C80025235E /* Build configuration list for PBXProject "ListelemeKullanimi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E919F02A10F9C90025235E /* Debug */,
+				A6E919F12A10F9C90025235E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6E919F22A10F9C90025235E /* Build configuration list for PBXNativeTarget "ListelemeKullanimi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E919F32A10F9C90025235E /* Debug */,
+				A6E919F42A10F9C90025235E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6E919DC2A10F9C80025235E /* Project object */;
+}
