@@ -8,8 +8,30 @@
 import SwiftUI
 
 struct OyunEkrani: View {
+    @Environment(\.presentationMode) var pm
+    @State private var sonucEkraninaGecis = false
+    
+    var isim = ""
+    var yas = 0
+    var boy = 0.0
+    var bekar = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing: 100){
+            Text("\(isim) - \(yas) - \(boy) - \(String(bekar))")
+            Button("BİTTİ") {
+                sonucEkraninaGecis = true
+                
+            }
+            
+            Button("GERİ") {
+                pm.wrappedValue.dismiss()
+            }
+            
+        }.navigationTitle("Oyun Ekranı")
+            .sheet(isPresented: $sonucEkraninaGecis) {
+                SonucEkrani()
+            }
     }
 }
 

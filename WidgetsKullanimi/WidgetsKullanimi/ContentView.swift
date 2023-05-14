@@ -1,21 +1,21 @@
 //
 //  ContentView.swift
-//  CalismaYapisi
+//  WidgetsKullanimi
 //
-//  Created by Nevin Özkan on 11.05.2023.
+//  Created by Nevin Özkan on 14.05.2023.
 //
 
 import SwiftUI
 
 struct ContentView: View {
-    @State private var sayac = 0
     var body: some View {
         VStack {
-            Text("Sayac : \(sayac)")
-            Button ("Tikla"){
-                sayac = sayac + 1
-            }
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundColor(.accentColor)
+            Text("Hello, world!")
         }
+        .padding()
     }
 }
 

@@ -8,8 +8,15 @@
 import SwiftUI
 
 struct SonucEkrani: View {
+    @Environment(\.presentationMode) var pm
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing: 100) {
+            Text("Sonuç Ekranı").font(.system(size: 50))
+            Button("KAPAT"){
+                pm.wrappedValue.dismiss()
+            }
+           
+        }
     }
 }
 

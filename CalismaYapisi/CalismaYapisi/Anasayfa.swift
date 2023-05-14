@@ -8,9 +8,21 @@
 import SwiftUI
 
 struct Anasayfa: View {
+    @State private var oyunEkraninaGecis = false
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            VStack {
+                Button("BAŞLA") {
+                    oyunEkraninaGecis = true
+                }
+                
+            }.navigationTitle("Anasayfa")
+                .navigationDestination(isPresented: $oyunEkraninaGecis) {
+                    OyunEkrani(isim: "Ahmet", yas: 23,boy: 1.78, bekar: true)
+                }
+        }
     }
+
 }
 
 struct Anasayfa_Previews: PreviewProvider {
